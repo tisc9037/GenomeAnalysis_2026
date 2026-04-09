@@ -34,7 +34,7 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 ## planning
 •	10/4: project plan finished, data organized, software installed, and folders/scripts ready.
 
-•	16/4: primary genome assembly finished, so you can move to evaluation and refinement.
+•	16/4: primary genome assembly finished, so I can move to evaluation and refinement.
 
 •	21/4: assembly evaluation finished and the genome is stable enough for annotation.
 
@@ -46,7 +46,7 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 
 •	11/5: RNA mapping finished.
 
-•	13/5: read counting finished. And thus 
+•	13/5: read counting finished.
 
 •	19/5: differential expression finished.
 
