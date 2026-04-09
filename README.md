@@ -56,7 +56,7 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 
 
 	
-## Data constancy and needs
+## Data and Storage
 Data constancy and needs
 This project will work on raw sequencing reads from the initial article. These are PacBio, Illumina and Nanopore reads, as well as RNA-seq and tn-seq files. During the project extra files like FASTA, FASTQ and BAM files will be created aswell.
 
