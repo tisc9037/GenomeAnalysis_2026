@@ -57,9 +57,20 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 
 	
 ## Data constancy and needs
+Data constancy and needs
+This project will work on raw sequencing reads from the initial article. These are PacBio, Illumina and Nanopore reads, as well as RNA-seq and tn-seq files. During the project extra files like FASTA, FASTQ and BAM files will be created aswell.
 
+### Data types
+•	PacBio long reads for the primary genome assembly 
+•	Illumina short reads and Nanopore long reads for additional analyses 
+•	RNA-seq reads for gene expression analysis 
+•	Tn-seq reads for essential gene analyses 
+•	Outputs from used tools, including genome FASTA files, GFF annotations, BAM files, count matrices, and result tables 
+
+### Storage requirements
+To be fully honest, I have no clue. I do know that these files contain a tremendous amount of data. Based on the amount of bp and the amount of different types of reads, my estimation would be between 40 and 60 Gb of data.
 
 ### Data orginization
-I personally like a lot of folders with clear separations between analysis. And old versions backed up in a different folder then the up-to-date files. Furthermore a GitHub depository will be used for additional version control.
+I personally like a lot of folders with clear separations between analysis. And old versions backed up in a different folder then the up-to-date files. Furthermore this GitHub depository will be used for additional version control.
 
 
