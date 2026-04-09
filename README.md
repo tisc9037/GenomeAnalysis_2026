@@ -57,15 +57,7 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 
 	
 ## Data constancy and needs
-I will primarily work with raw sequencing reads and the files generated throughout their downstream analysis. This includes PacBio reads for genome assembly, with optional Illumina and Nanopore reads for hybrid assembly approaches, as well as RNA-seq and Tn-seq FASTQ files. During processing, I will also generate intermediate files such as SAM/BAM alignments, count tables, and final outputs including genome assemblies, annotations, and differential expression results.
-Data types
-•	PacBio long reads for the primary genome assembly 
-•	Illumina short reads and Nanopore long reads for supplementary hybrid assembly 
-•	RNA-seq reads for gene expression analysis 
-•	Tn-seq reads for essential gene and fitness analyses 
-•	Reference outputs including genome FASTA files, GFF annotations, BAM files, count matrices, and result tables 
-Storage requirements
-It is difficult to provide a precise estimate before knowing the actual sequencing depth, but storage demands are typically driven more by the raw FASTQ files and intermediate BAM files than by the final result tables. For bacterial RNA-seq experiments, compressed FASTQ files are often on the order of several gigabytes. Similarly, a PacBio HiFi dataset for a microbial genome can also be substantial, although it generally remains considerably smaller than datasets generated for typical human sequencing studies.
+
 
 ### Data orginization
 I personally like a lot of folders with clear separations between analysis. And old versions backed up in a different folder then the up-to-date files. Furthermore a GitHub depository will be used for additional version control.
