@@ -35,7 +35,7 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 •	10/4: project plan finished, data organized and folders ready.
 		  Start of data quality control.
 
-•	15-16/4 genome assembly, additional assembly of illumina and nanopore.
+•	15-16/4 genome assembly of Illunina and additional assembly of PacBio.
 			And quality control of these assembly.
 
 •	21-24/4: assembly evaluation finished and start annotation.
