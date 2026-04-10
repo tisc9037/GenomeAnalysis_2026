@@ -12,8 +12,8 @@ INPUT_DIR=$1
 OUTPUT_DIR=$2
 
 # Automatically detect paired-end files
-R1=$(ls "$INPUT_DIR"/*R1*.fq.gz | head -n 1)
-R2=$(ls "$INPUT_DIR"/*R2*.fq.gz | head -n 1)
+R1=$(ls "$INPUT_DIR"/*_1_*.fq.gz | head -n 1)
+R2=$(ls "$INPUT_DIR"/*_2_*.fq.gz | head -n 1)
 
 echo "Using:"
 echo "R1 = $R1"
