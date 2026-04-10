@@ -62,10 +62,15 @@ This project will work on raw sequencing reads from the initial article. These a
 
 ### Data types
 •	PacBio long reads for the primary genome assembly 
+
 •	Illumina short reads and Nanopore long reads for additional analyses 
+
 •	RNA-seq reads for gene expression analysis 
+
 •	Tn-seq reads for essential gene analyses 
+
 •	Outputs from used tools, including genome FASTA files, GFF annotations, BAM files, count matrices, and result tables 
+
 
 ### Storage requirements
 To be fully honest, I have no clue. I do know that these files contain a tremendous amount of data. Based on the amount of bp and the amount of different types of reads, my estimation would be between 40 and 60 Gb of data.
