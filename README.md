@@ -12,7 +12,7 @@ Because analysis and models are always as good to the worst input data it is imp
 The preprocessing process will be streamlined by using Trimmomatic, which is a fast multithreaded program that can be used to remove adapters and trim and crop fastq data.
 
 ### Genome assembly
-When the data is ready genome assembly will be done. Because there is data from PacBio reads, as well as illumina and Nanopore reads an extra analysis will be done to find out which of these methods is best suited for downstream analysis. To assemble the RNA-seq data Trinity will be used, and for the Tn-seq data Flye will be used as it can be used for small bacterial genomes. 
+When the data is ready genome assembly will be done. Because there is data from PacBio reads, as well as illumina and Nanopore reads an extra analysis will be done to find out which of these methods is best suited for downstream analysis. In this case the NanoPore reads are already assembled, so only the PacBio and Illumina reads need to be assembled. For the Illumina assembly Spades will be used, in additon for PacBio I will work with Flye.
 The evaluation of the assembly will be done in multiple steps, or multiple times depending how you look at it. To start QUAST will be used to be able to independently evaluate the quality. As additional analysis, the alignment will be compared to the one done in the original research.
 
 ### Annotation
