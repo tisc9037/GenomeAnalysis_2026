@@ -12,7 +12,7 @@ module load FastQC/0.12.1-Java-11
 INPUT_DIR=$1
 OUTPUT_DIR=$2
 
-fastqc -t 4 -o "$OUTPUT_DIR" "$INPUT_DIR"/*.fastq.gz
+fastqc -t 4 -o "$OUTPUT_DIR" "$INPUT_DIR"/*.gz
 
 
 
