@@ -10,5 +10,6 @@ results/*
 
 #ignore data files
 *.fastq.qz
+*.fq.qz
 *.RData
 *.tsv
