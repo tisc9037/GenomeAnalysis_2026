@@ -5,7 +5,8 @@
 #SBATCH -t 02:30:00
 #SBATCH -J Illumina_Assembly_Spades
 
-# Load modules SPAdes/4.2.0-GCC-13.3.0
+# Load modules 
+module load SPAdes/4.2.0-GCC-13.3.0
 
 # Check arguments
 INPUT_DIR=$1
