@@ -11,16 +11,16 @@ The aim of this project is to identify genes related to the growth of Enterococc
 Because analysis and models are always as good to the worst input data it is important to start by doing a data quality assessment. To assist in this FastQC will be used. Based on these results it will be evaluated to with what extend data preprocessing is needed.  
 The preprocessing process will be streamlined by using Trimmomatic, which is a fast multithreaded program that can be used to remove adapters and trim and crop fastq data.
 
-### Genome and metagenome assembly
-When the data is ready genome and metagenome assembly will be done. Because there is data from PacBio reads, as well as illumina and Nanopore reads extra analysis will be done to find out which of these methods is best suited for downstream analysis. To assemble the RNA-seq data Trinity will be used, and for the Tn-seq data Flye will be used as it can be used for small bacterial genomes. 
-The evaluation of the assembly will be done in multiple steps, or multiple times depending how you look at it. To start QUAST will be used to be able to independently evaluate the quality, on top of this (or after) the alignment will be compared to the one done in the original research.
+### Genome assembly
+When the data is ready genome assembly will be done. Because there is data from PacBio reads, as well as illumina and Nanopore reads an extra analysis will be done to find out which of these methods is best suited for downstream analysis. To assemble the RNA-seq data Trinity will be used, and for the Tn-seq data Flye will be used as it can be used for small bacterial genomes. 
+The evaluation of the assembly will be done in multiple steps, or multiple times depending how you look at it. To start QUAST will be used to be able to independently evaluate the quality. As additional analysis, the alignment will be compared to the one done in the original research.
 
 ### Annotation
 The next step will be to find the genetic elements. This will be done by using Prokka to add biochemical functions to prokaryotic genomes. Furthermore, EggNOGmapper will be used to further investigate the functional predictions.
 
 ### Homology search Mapping and analysis
 To be able to assess the quality of the assembly a comparison with reference model can be done. To actually find this reference genome Blastn will be run. This then will be used to determine mistakes and read coverage using BWA. Finally, to do some file manipulation SAMtools will be used.  
-Here I also wish to do a plasmid identification if the time is there.
+As additional analysis, I also wish to do a plasmid identification if the time is there.
 
 ### Expression
 At this point the expressed genes can be counted. This will be done using a python package called HTSeq. This will be done for the in human serum and control so they can be compared.
@@ -32,25 +32,25 @@ Because I have to but also because I am a visually oriented person, Artemis Comp
 
 
 ## planning
-•	10/4: project plan finished, data organized, software installed, and folders/scripts ready.
+•	10/4: project plan finished, data organized and folders ready.
+		  Start of data quality control.
 
-•	16/4: primary genome assembly finished, so I can move to evaluation and refinement.
+•	15-16/4 genome assembly, additional assembly of illumina and nanopore.
+			And quality control of these assembly.
 
-•	21/4: assembly evaluation finished and the genome is stable enough for annotation.
+•	21-24/4: assembly evaluation finished and start annotation.
 
 •	28/4: structural/functional annotation finished.
 
-•	5/5: comparative genomics/synteny finished.
+•	5/5: homology search.
 
-•	8/5: RNA-seq trimming finished.
+•	8/5: RNA-seq and tn-seq mapping.
 
-•	11/5: RNA mapping finished.
+•	11-13/5: read counts and expressions analysis.
 
-•	13/5: read counting finished.
+•	19/5: differential expression.
 
-•	19/5: differential expression finished.
-
-•	22/5: all results are interpreted and written up for the wiki.
+•	22/5: finalize results and round out the git wiki.
 
 •	26/5: final presentation ready.
 
@@ -73,9 +73,8 @@ This project will work on raw sequencing reads from the initial article. These a
 
 
 ### Storage requirements
-To be fully honest, I have no clue. I do know that these files contain a tremendous amount of data. Based on the amount of bp and the amount of different types of reads, my estimation would be between 40 and 60 Gb of data.
+The full datamap contains a total of 35 Gb of data, which is not allot. But this will become significantly more when the analysis go on.
 
 ### Data orginization
-I personally like a lot of folders with clear separations between analysis. And old versions backed up in a different folder then the up-to-date files. Furthermore this GitHub depository will be used for additional version control.
-
+Initially the raw data will be stored in personal directory. When the data limit gets surpassed a folder within the general project folder will be used.
 
