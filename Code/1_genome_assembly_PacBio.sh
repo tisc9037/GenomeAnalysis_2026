@@ -12,9 +12,9 @@ module load Flye/2.9.6-GCC-13.3.0
 INPUT_DIR=$1
 OUTPUT_DIR=$2
 
-# Detect PacBio reads (fastq or fq, gzipped or not)
-PACBIO_READS=$(ls "$INPUT_DIR"/*.subreads.fastq.gz 2>/dev/null)
+# Detect PacBio reads (fastq or fq)
+PACBIO_READS=$(ls "$INPUT_DIR"/*.subreads.fastq.gz)
 
 # Run Flye
-flye --pacbio-hifi $PACBIO_READS --out-dir "$OUTPUT_DIR" --threads $SLURM_CPUS_PER_TASK
+flye --pacbio-hifi $PACBIO_READS --out-dir "$OUTPUT_DIR"
 
