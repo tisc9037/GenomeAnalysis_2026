@@ -16,5 +16,5 @@ OUTPUT_DIR=$2
 PACBIO_READS=$(ls "$INPUT_DIR"/*.subreads.fastq.gz)
 
 # Run Flye
-flye --pacbio-hifi $PACBIO_READS --out-dir "$OUTPUT_DIR"
+flye --pacbio-raw $PACBIO_READS --out-dir "$OUTPUT_DIR" --threads 32
 
