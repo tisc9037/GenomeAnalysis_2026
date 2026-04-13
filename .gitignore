@@ -8,6 +8,9 @@ logs/*.log
 scratch/*
 results/*
 
+ignore Data Map
+Data/
+
 #ignore data files
 *.fastq.qz
 *.fq.qz
