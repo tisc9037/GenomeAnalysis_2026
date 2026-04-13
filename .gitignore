@@ -5,11 +5,7 @@ _*
 #ignore intermadiate, logs and scratch dirs as well as results
 intermediate/trimmed
 logs/*.log
-scratch/*
-results/*
-
-ignore Data Map
-Data/
+Data/*
 
 #ignore data files
 *.fastq.qz
