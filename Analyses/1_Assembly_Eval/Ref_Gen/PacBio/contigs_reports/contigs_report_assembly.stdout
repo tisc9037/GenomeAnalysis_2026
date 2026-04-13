@@ -1,0 +1,1071 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NZ_CP038996.1]
+	Loaded [NZ_CP038997.1]
+	Total Regions: 2
+	Total Region Length: 2919198
+Analyzing contigs...
+CONTIG: contig_1 (38669bp)
+Best alignment score: 1794.0 (LEN: 1796, IDY: 99.89), Total number of alignments: 8
+			Looking for the best set of alignments (out of 8 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 428592 430384 | 5903 7695 | 1793 1793 | 99.89 | NZ_CP038996.1 contig_1
+		Skipping redundant alignment 1806791 1808582 | 5905 7696 | 1792 1792 | 99.89 | NZ_CP038996.1 contig_1
+		Skipping redundant alignment 2062683 2064477 | 5902 7696 | 1795 1795 | 99.89 | NZ_CP038996.1 contig_1
+		Skipping redundant alignment 2687496 2689285 | 5908 7697 | 1790 1790 | 99.89 | NZ_CP038996.1 contig_1
+		Skipping redundant alignment 1727690 1729483 | 5904 7697 | 1794 1794 | 99.89 | NZ_CP038996.1 contig_1
+		Skipping redundant alignment 281375 283168 | 7697 5904 | 1794 1794 | 99.89 | NZ_CP038996.1 contig_1
+		Skipping redundant alignment 1456390 1458184 | 5904 7698 | 1795 1795 | 99.83 | NZ_CP038996.1 contig_1
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1794.0, number of alignments: 1, unaligned bases: 36873
+		This contig is partially unaligned. (Aligned 1796 out of 38669 non-N bases (4.64%))
+		Alignment: 958612 960407 | 7697 5902 | 1796 1796 | 99.89 | NZ_CP038996.1 contig_1
+		Unaligned bases: 1 to 5901 (5901)
+		Unaligned bases: 7698 to 38669 (30972)
+
+CONTIG: contig_10 (14445bp)
+		This contig is unaligned. (14445 bp)
+		Unaligned bases: 14445 (number of Ns: 0)
+
+CONTIG: contig_11 (19196bp)
+		This contig is unaligned. (19196 bp)
+		Unaligned bases: 19196 (number of Ns: 0)
+
+CONTIG: contig_12 (32424bp)
+Best alignment score: 2721.0 (LEN: 2721, IDY: 100.00), Total number of alignments: 53
+			Looking for the best set of alignments (out of 53 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 102145 102953 | 2888 2080 | 809 809 | 99.88 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 987066 987874 | 2080 2888 | 809 809 | 99.88 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 55466 56275 | 2079 2888 | 810 810 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 979081 979891 | 2889 2079 | 811 811 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 977820 978631 | 2078 2889 | 812 812 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 61628 62438 | 2080 2890 | 811 811 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 61628 62436 | 4825 5633 | 809 809 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 55467 56275 | 4825 5633 | 809 809 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 977822 978630 | 4825 5633 | 809 809 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 979082 979890 | 5633 4825 | 809 809 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 102145 102954 | 5633 4824 | 810 810 | 99.88 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 966222 967032 | 4825 5635 | 811 811 | 99.88 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 102145 102953 | 10618 9810 | 809 809 | 99.88 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 55467 56275 | 9810 10618 | 809 809 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 979082 979890 | 10618 9810 | 809 809 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 977822 978630 | 9810 10618 | 809 809 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 61626 62436 | 9808 10618 | 811 811 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 987066 987878 | 9810 10622 | 813 813 | 99.88 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 665235 665546 | 10619 10930 | 312 312 | 100.0 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 1978661 1978972 | 10930 10619 | 312 312 | 100.0 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 955141 955452 | 10930 10619 | 312 312 | 100.0 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 1603946 1604257 | 10930 10619 | 312 312 | 100.0 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 1255612 1255923 | 10619 10930 | 312 312 | 100.0 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 336632 336943 | 10930 10619 | 312 312 | 99.68 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 131628 131940 | 10619 10931 | 313 313 | 100.0 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 1467966 1468278 | 10619 10931 | 313 313 | 99.68 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 102145 102953 | 15583 14775 | 809 809 | 100.0 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 977822 978630 | 14775 15583 | 809 809 | 99.63 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 979082 979890 | 15583 14775 | 809 809 | 99.63 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 61628 62436 | 14775 15583 | 809 809 | 99.51 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 55467 56275 | 14775 15583 | 809 809 | 99.51 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 966222 967032 | 14775 15585 | 811 811 | 99.75 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 102145 102953 | 20508 21316 | 809 809 | 99.88 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 55467 56275 | 21316 20508 | 809 809 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 977822 978630 | 21316 20508 | 809 809 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 979082 979890 | 20508 21316 | 809 809 | 99.51 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 987066 987875 | 21316 20507 | 810 810 | 99.88 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 966222 967031 | 21316 20507 | 810 810 | 99.88 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 987066 987874 | 26749 25941 | 809 809 | 99.38 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 966222 967030 | 26749 25941 | 809 809 | 99.38 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 977822 978630 | 26749 25941 | 809 809 | 99.26 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 979082 979890 | 25941 26749 | 809 809 | 99.26 | NZ_CP038996.1 contig_12
+		Skipping redundant alignment 102144 102953 | 25940 26749 | 810 810 | 99.63 | NZ_CP038997.1 contig_12
+		Skipping redundant alignment 61625 62436 | 26752 25941 | 812 812 | 99.14 | NZ_CP038997.1 contig_12
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 6547.6, number of alignments: 9, unaligned bases: 24083
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 8341 out of 32424 non-N bases (25.72%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 32424 (number of Ns: 0) and total length of all aligns is 8341
+		Alignment: 982612 983048 | 1 437 | 437 437 | 100.0 | NZ_CP038996.1 contig_12
+		Alignment: 966213 967030 | 2071 2888 | 818 818 | 99.76 | NZ_CP038996.1 contig_12
+		Alignment: 987065 987876 | 4824 5635 | 812 812 | 99.88 | NZ_CP038996.1 contig_12
+		Alignment: 966222 967032 | 9810 10620 | 811 811 | 99.88 | NZ_CP038996.1 contig_12
+		Alignment: 1686576 1686888 | 10619 10931 | 313 313 | 100.0 | NZ_CP038996.1 contig_12
+		Alignment: 987066 987876 | 14775 15585 | 811 811 | 99.75 | NZ_CP038996.1 contig_12
+		Alignment: 61627 62436 | 21317 20508 | 810 810 | 99.63 | NZ_CP038997.1 contig_12
+		Alignment: 55467 56276 | 26749 25940 | 810 810 | 99.14 | NZ_CP038997.1 contig_12
+		Alignment: 979891 982611 | 29704 32424 | 2721 2721 | 100.0 | NZ_CP038996.1 contig_12
+		Unaligned bases: 24083
+
+CONTIG: contig_2 (16000bp)
+		This contig is unaligned. (16000 bp)
+		Unaligned bases: 16000 (number of Ns: 0)
+
+CONTIG: contig_3 (3642bp)
+		This contig is unaligned. (3642 bp)
+		Unaligned bases: 3642 (number of Ns: 0)
+
+CONTIG: contig_5 (27176bp)
+Best alignment score: 9392.4 (LEN: 9494, IDY: 98.93), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 978630 978714 | 12117 12201 | 85 85 | 100.0 | NZ_CP038996.1 contig_5
+			The best set is below. Score: 9392.4, number of alignments: 1, unaligned bases: 17682
+		This contig is partially unaligned. (Aligned 9494 out of 27176 non-N bases (34.94%))
+		Alignment: 967031 976524 | 21686 12193 | 9494 9494 | 98.93 | NZ_CP038996.1 contig_5
+		Unaligned bases: 1 to 12192 (12192)
+		Unaligned bases: 21687 to 27176 (5490)
+
+CONTIG: contig_6 (1415023bp)
+Best alignment score: 137646.2 (LEN: 137660, IDY: 99.99), Total number of alignments: 163
+			Too much alignments (163), will use speed up heuristics
+			Found 89 solid alignments:
+		Solid alignment 2665962 2687499 | 1745 23282 | 21538 21538 | 100.0 | NZ_CP038996.1 contig_6
+		Solid alignment 2689281 2719482 | 23281 53483 | 30202 30203 | 99.77 | NZ_CP038996.1 contig_6
+		Solid alignment 2719481 2796178 | 55102 131797 | 76698 76696 | 99.71 | NZ_CP038996.1 contig_6
+		Solid alignment 1 39094 | 131798 170891 | 39094 39094 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 51181 92302 | 170829 212014 | 41122 41186 | 99.59 | NZ_CP038996.1 contig_6
+		Solid alignment 846970 848293 | 215104 213781 | 1324 1324 | 99.77 | NZ_CP038996.1 contig_6
+		Solid alignment 1730681 1732019 | 215366 216704 | 1339 1339 | 99.85 | NZ_CP038996.1 contig_6
+		Solid alignment 73299 74341 | 219527 218485 | 1043 1043 | 99.62 | NZ_CP038997.1 contig_6
+		Solid alignment 92319 101622 | 219610 228913 | 9304 9304 | 99.74 | NZ_CP038996.1 contig_6
+		Solid alignment 101621 121301 | 230532 250090 | 19681 19559 | 98.74 | NZ_CP038996.1 contig_6
+		Solid alignment 336632 337695 | 251154 250091 | 1064 1064 | 99.72 | NZ_CP038996.1 contig_6
+		Solid alignment 846969 848294 | 252750 251425 | 1326 1326 | 99.85 | NZ_CP038996.1 contig_6
+		Solid alignment 121566 123300 | 252755 254487 | 1735 1733 | 99.14 | NZ_CP038996.1 contig_6
+		Solid alignment 73301 74344 | 254487 255518 | 1044 1032 | 98.47 | NZ_CP038997.1 contig_6
+		Solid alignment 123292 126150 | 255514 258372 | 2859 2859 | 99.58 | NZ_CP038996.1 contig_6
+		Solid alignment 1239983 1241048 | 259437 258372 | 1066 1066 | 99.91 | NZ_CP038996.1 contig_6
+		Solid alignment 131940 155773 | 259439 283268 | 23834 23830 | 99.4 | NZ_CP038996.1 contig_6
+		Solid alignment 1685824 1686887 | 283316 284379 | 1064 1064 | 99.62 | NZ_CP038996.1 contig_6
+		Solid alignment 157465 180694 | 284558 307904 | 23230 23347 | 99.08 | NZ_CP038996.1 contig_6
+		Solid alignment 180695 182104 | 309314 307905 | 1410 1410 | 99.86 | NZ_CP038996.1 contig_6
+		Solid alignment 182105 206382 | 309315 333590 | 24278 24276 | 99.21 | NZ_CP038996.1 contig_6
+		Solid alignment 208279 216200 | 333596 341516 | 7922 7921 | 99.38 | NZ_CP038996.1 contig_6
+		Solid alignment 216196 219223 | 343195 346222 | 3028 3028 | 99.47 | NZ_CP038996.1 contig_6
+		Solid alignment 336632 337699 | 346223 347290 | 1068 1068 | 99.53 | NZ_CP038996.1 contig_6
+		Solid alignment 224009 234317 | 355836 366142 | 10309 10307 | 99.26 | NZ_CP038996.1 contig_6
+		Solid alignment 235781 243836 | 366132 374090 | 8056 7959 | 98.22 | NZ_CP038996.1 contig_6
+		Solid alignment 479941 481307 | 383621 382255 | 1367 1367 | 99.93 | NZ_CP038996.1 contig_6
+		Solid alignment 73301 74340 | 385983 384943 | 1040 1041 | 99.52 | NZ_CP038997.1 contig_6
+		Solid alignment 1107138 1108478 | 392218 393557 | 1341 1340 | 99.63 | NZ_CP038996.1 contig_6
+		Solid alignment 336631 337695 | 406823 407887 | 1065 1065 | 99.44 | NZ_CP038996.1 contig_6
+		Solid alignment 336632 337697 | 416521 417586 | 1066 1066 | 99.44 | NZ_CP038996.1 contig_6
+		Solid alignment 266299 270536 | 420197 424425 | 4238 4229 | 96.39 | NZ_CP038996.1 contig_6
+		Solid alignment 336631 337695 | 425489 424425 | 1065 1065 | 99.53 | NZ_CP038996.1 contig_6
+		Solid alignment 311662 314219 | 425519 428081 | 2558 2563 | 95.94 | NZ_CP038996.1 contig_6
+		Solid alignment 314349 336631 | 429957 452110 | 22283 22154 | 95.73 | NZ_CP038996.1 contig_6
+		Solid alignment 337695 346927 | 452107 461330 | 9233 9224 | 98.75 | NZ_CP038996.1 contig_6
+		Solid alignment 336632 337697 | 461330 462395 | 1066 1066 | 99.62 | NZ_CP038996.1 contig_6
+		Solid alignment 346921 367720 | 462391 483191 | 20800 20801 | 99.74 | NZ_CP038996.1 contig_6
+		Solid alignment 367716 391988 | 484870 509267 | 24273 24398 | 99.35 | NZ_CP038996.1 contig_6
+		Solid alignment 393501 416964 | 509258 532779 | 23464 23522 | 99.35 | NZ_CP038996.1 contig_6
+		Solid alignment 418032 424623 | 532782 539372 | 6592 6591 | 99.91 | NZ_CP038996.1 contig_6
+		Solid alignment 426141 428600 | 539349 541808 | 2460 2460 | 99.96 | NZ_CP038996.1 contig_6
+		Solid alignment 430382 447093 | 541807 558518 | 16712 16712 | 99.95 | NZ_CP038996.1 contig_6
+		Solid alignment 449784 463044 | 558519 571779 | 13261 13261 | 99.86 | NZ_CP038996.1 contig_6
+		Solid alignment 464369 476484 | 571772 583886 | 12116 12115 | 99.3 | NZ_CP038996.1 contig_6
+		Solid alignment 476476 479940 | 584245 587687 | 3465 3443 | 98.41 | NZ_CP038996.1 contig_6
+		Solid alignment 481307 534273 | 601750 654711 | 52967 52962 | 99.71 | NZ_CP038996.1 contig_6
+		Solid alignment 539745 542152 | 655272 657679 | 2408 2408 | 97.05 | NZ_CP038996.1 contig_6
+		Solid alignment 543207 549590 | 658761 665149 | 6384 6389 | 97.86 | NZ_CP038996.1 contig_6
+		Solid alignment 550914 585161 | 665141 699393 | 34248 34253 | 99.97 | NZ_CP038996.1 contig_6
+		Solid alignment 586675 724327 | 699385 837044 | 137653 137660 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 725842 771492 | 837037 882688 | 45651 45652 | 99.89 | NZ_CP038996.1 contig_6
+		Solid alignment 774001 774860 | 885875 886735 | 860 861 | 96.17 | NZ_CP038996.1 contig_6
+		Solid alignment 1993593 2001085 | 920848 913356 | 7493 7493 | 99.35 | NZ_CP038996.1 contig_6
+		Solid alignment 2177893 2212374 | 957627 923126 | 34482 34502 | 99.88 | NZ_CP038996.1 contig_6
+		Solid alignment 2164570 2177917 | 971200 957848 | 13348 13353 | 99.9 | NZ_CP038996.1 contig_6
+		Solid alignment 2117276 2163055 | 1016973 971193 | 45780 45781 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 2096769 2115388 | 1035589 1016970 | 18620 18620 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 2094041 2095708 | 1037251 1035584 | 1668 1668 | 99.94 | NZ_CP038996.1 contig_6
+		Solid alignment 2077440 2094042 | 1055635 1039033 | 16603 16603 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 2064474 2075925 | 1067079 1055628 | 11452 11452 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 2031859 2062692 | 1097911 1067078 | 30834 30834 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 1964801 1991595 | 1124699 1097905 | 26795 26795 | 99.99 | NZ_CP038996.1 contig_6
+		Solid alignment 1953473 1963286 | 1134500 1124692 | 9814 9809 | 98.56 | NZ_CP038996.1 contig_6
+		Solid alignment 1948561 1953410 | 1154610 1149753 | 4850 4858 | 95.72 | NZ_CP038996.1 contig_6
+		Solid alignment 1944833 1946265 | 1157060 1155625 | 1433 1436 | 95.76 | NZ_CP038996.1 contig_6
+		Solid alignment 1889654 1943770 | 1211002 1157057 | 54117 53946 | 98.47 | NZ_CP038996.1 contig_6
+		Solid alignment 222396 223815 | 1210999 1212418 | 1420 1420 | 100.0 | NZ_CP038996.1 contig_6
+		Solid alignment 1868163 1889656 | 1234052 1212419 | 21494 21634 | 96.94 | NZ_CP038996.1 contig_6
+		Solid alignment 1843757 1866649 | 1256959 1234066 | 22893 22894 | 99.47 | NZ_CP038996.1 contig_6
+		Solid alignment 1832301 1843764 | 1269938 1258474 | 11464 11465 | 99.56 | NZ_CP038996.1 contig_6
+		Solid alignment 1823327 1832302 | 1280529 1271556 | 8976 8974 | 98.69 | NZ_CP038996.1 contig_6
+		Solid alignment 1808579 1821986 | 1295283 1281876 | 13408 13408 | 98.64 | NZ_CP038996.1 contig_6
+		Solid alignment 1792198 1806797 | 1309889 1295282 | 14600 14608 | 97.39 | NZ_CP038996.1 contig_6
+		Solid alignment 1789959 1791529 | 1313145 1311575 | 1571 1571 | 97.9 | NZ_CP038996.1 contig_6
+		Solid alignment 92720 94048 | 1321155 1322483 | 1329 1329 | 99.85 | NZ_CP038997.1 contig_6
+		Solid alignment 1776604 1782639 | 1331686 1325651 | 6036 6036 | 98.44 | NZ_CP038996.1 contig_6
+		Solid alignment 1765229 1775302 | 1342120 1332040 | 10074 10081 | 95.65 | NZ_CP038996.1 contig_6
+		Solid alignment 1757730 1763714 | 1348097 1342113 | 5985 5985 | 99.38 | NZ_CP038996.1 contig_6
+		Solid alignment 1750890 1757736 | 1355292 1348462 | 6847 6831 | 98.92 | NZ_CP038996.1 contig_6
+		Solid alignment 1745112 1750888 | 1362714 1356938 | 5777 5777 | 97.91 | NZ_CP038996.1 contig_6
+		Solid alignment 1734573 1743597 | 1371732 1362707 | 9025 9026 | 99.84 | NZ_CP038996.1 contig_6
+		Solid alignment 1730681 1732019 | 1373096 1371758 | 1339 1339 | 99.93 | NZ_CP038996.1 contig_6
+		Solid alignment 222400 223820 | 1373106 1374526 | 1421 1421 | 100.0 | NZ_CP038996.1 contig_6
+		Solid alignment 1726636 1730680 | 1378672 1374628 | 4045 4045 | 99.88 | NZ_CP038996.1 contig_6
+		Solid alignment 234315 235781 | 1382230 1380764 | 1467 1467 | 100.0 | NZ_CP038996.1 contig_6
+		Solid alignment 1722018 1724969 | 1385188 1382237 | 2952 2952 | 99.93 | NZ_CP038996.1 contig_6
+		Solid alignment 1108971 1110473 | 1385189 1386691 | 1503 1503 | 100.0 | NZ_CP038996.1 contig_6
+		Solid alignment 1707648 1722025 | 1401067 1386692 | 14378 14376 | 99.94 | NZ_CP038996.1 contig_6
+			Skipping alignments located inside solid regions since they are redundant:
+		Skipping redundant alignment 2772829 2778266 | 539338 533900 | 5438 5439 | 99.8 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2054219 2059662 | 539338 533895 | 5444 5444 | 99.69 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2435127 2440580 | 539378 533925 | 5454 5454 | 99.71 | NZ_CP038996.1 contig_6
+			Looking for the best set of alignments (out of 160 total alignments)
+		Ambiguity for this contig is not checked for speed up (too much alignments and --ambiguity-usage is "one")
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1920132 1920247 | 1348219 1348334 | 116 116 | 98.28 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1677115 1678628 | 1355424 1356937 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2531941 2533454 | 1356937 1355424 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1763715 1765228 | 1356937 1355424 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 910437 911950 | 1355424 1356937 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 391984 393500 | 1356940 1355424 | 1517 1517 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1732018 1732107 | 1374636 1374547 | 90 90 | 98.89 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1677115 1678628 | 1378673 1380186 | 1514 1514 | 99.93 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2491788 2493465 | 343194 341517 | 1678 1678 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1946854 1948533 | 343196 341517 | 1680 1680 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 391987 393500 | 1380186 1378673 | 1514 1514 | 99.93 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 255090 255172 | 382256 382174 | 83 83 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2491788 2493465 | 390448 392125 | 1678 1678 | 99.88 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1946856 1948533 | 390448 392125 | 1678 1678 | 99.88 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2329705 2331382 | 396833 395156 | 1678 1678 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2491788 2493465 | 396833 395156 | 1678 1678 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 74254 74342 | 405532 405444 | 89 89 | 100.0 | NZ_CP038997.1 contig_6
+		Skipping redundant alignment 2491788 2493465 | 484869 483192 | 1678 1678 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2329704 2331382 | 484870 483192 | 1679 1679 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2305507 2305589 | 893991 893909 | 83 83 | 98.8 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2291387 2304298 | 907228 894305 | 12912 12924 | 96.89 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2005649 2018524 | 907228 894295 | 12876 12934 | 97.65 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2463758 2465271 | 908740 907227 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2163056 2164569 | 907227 908740 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1963287 1964800 | 908740 907227 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1866649 1868162 | 908740 907227 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1888529 1890042 | 908740 907227 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1117630 1119143 | 908740 907227 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 585161 586674 | 907227 908740 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 724328 725841 | 907227 908740 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1432548 1434063 | 908740 907225 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1212965 1214481 | 907227 908743 | 1517 1517 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1531307 1532824 | 908744 907227 | 1518 1518 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 796344 800084 | 908740 912480 | 3741 3741 | 98.77 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 330725 330861 | 957738 957874 | 137 137 | 97.08 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1806791 1808582 | 1039039 1037248 | 1792 1792 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 428593 430384 | 1039040 1037249 | 1792 1792 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2062685 2064477 | 1039040 1037248 | 1793 1793 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 958612 960405 | 1037247 1039040 | 1794 1794 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1727690 1729483 | 1039040 1037247 | 1794 1794 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 281375 283171 | 1037247 1039043 | 1797 1797 | 99.94 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1456387 1458184 | 1039043 1037246 | 1798 1798 | 99.89 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 16641 16760 | 1149511 1149630 | 120 120 | 98.33 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2177782 2177914 | 1149756 1149624 | 133 133 | 95.49 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 910436 911950 | 1256959 1258473 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1763715 1765230 | 1258473 1256958 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 2531941 2533456 | 1258473 1256958 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 1677112 1678628 | 1256957 1258473 | 1517 1517 | 100.0 | NZ_CP038996.1 contig_6
+		Skipping redundant alignment 391981 393508 | 1258479 1256952 | 1528 1528 | 99.93 | NZ_CP038996.1 contig_6
+			The best set is below. Score: 1251261.5, number of alignments: 111, unaligned bases: 131083
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 1283940 out of 1415023 non-N bases (90.74%))
+			Excluding internal overlap of size 2 between Alignment 1 and 2: 2665962 2687499 | 1745 23282 | 21538 21538 --> 2665962 2687497 | 1745 23280 | 21536 21536
+			Real Alignment 1: 2665962 2687497 | 1745 23280 | 21536 21536 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1783) between these two alignments
+			Real Alignment 2: 2689281 2719482 | 23281 53483 | 30202 30203 | 99.77 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1620) between these two alignments
+			Real Alignment 3: 2719481 2796178 | 55102 131797 | 76698 76696 | 99.71 | NZ_CP038996.1 contig_6
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Excluding internal overlap of size 63 between Alignment 4 and 5: 1 39094 | 131798 170891 | 39094 39094 --> 1 39031 | 131798 170828 | 39031 39031
+			Real Alignment 4: 1 39031 | 131798 170828 | 39031 39031 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 12149) between these two alignments
+			Real Alignment 5: 51181 92302 | 170829 212014 | 41122 41186 | 99.59 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 752901) between these two alignments
+			Real Alignment 6: 846970 848293 | 215104 213781 | 1324 1324 | 99.77 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 882126) between these two alignments
+			Real Alignment 7: 1730681 1732019 | 215366 216704 | 1339 1339 | 99.85 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 8: 73299 74341 | 219527 218485 | 1043 1043 | 99.62 | NZ_CP038997.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 9: 92319 101622 | 219610 228913 | 9304 9304 | 99.74 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1620) between these two alignments
+			Real Alignment 10: 101621 121301 | 230532 250090 | 19681 19559 | 98.74 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 215330) between these two alignments
+			Real Alignment 11: 336632 337695 | 251154 250091 | 1064 1064 | 99.72 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 215067) between these two alignments
+			Real Alignment 12: 121299 121564 | 251155 251421 | 266 267 | 99.63 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 725401) between these two alignments
+			Real Alignment 13: 846969 848294 | 252750 251425 | 1326 1326 | 99.85 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 723664) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 14 and 15: 73301 74344 | 254487 255518 | 1044 1032 --> 73302 74344 | 254488 255518 | 1043 1031
+			Real Alignment 14: 121566 123300 | 252755 254487 | 1735 1733 | 99.14 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 15 and 16: 73302 74344 | 254488 255518 | 1043 1031 --> 73302 74339 | 254488 255513 | 1038 1026
+			Real Alignment 15: 73302 74339 | 254488 255513 | 1038 1026 | 98.47 | NZ_CP038997.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 16 and 17: 1239983 1241048 | 259437 258372 | 1066 1066 --> 1239983 1241047 | 259437 258373 | 1065 1065
+			Real Alignment 16: 123292 126150 | 255514 258372 | 2859 2859 | 99.58 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1113832) between these two alignments
+			Real Alignment 17: 1239983 1241047 | 259437 258373 | 1065 1065 | 99.91 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1084208) between these two alignments
+			Real Alignment 18: 131940 155773 | 259439 283268 | 23834 23830 | 99.4 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1530003) between these two alignments
+			Real Alignment 19: 1685824 1686887 | 283316 284379 | 1064 1064 | 99.62 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1529601) between these two alignments
+			Real Alignment 20: 157465 180694 | 284558 307904 | 23230 23347 | 99.08 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (inversion) between these two alignments
+			Real Alignment 21: 180695 182104 | 309314 307905 | 1410 1410 | 99.86 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (inversion) between these two alignments
+			Real Alignment 22: 182105 206382 | 309315 333590 | 24278 24276 | 99.21 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1891) between these two alignments
+			Real Alignment 23: 208279 216200 | 333596 341516 | 7922 7921 | 99.38 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 2113504) between these two alignments
+			Real Alignment 24: 2329705 2331382 | 343194 341517 | 1678 1678 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 2110481) between these two alignments
+			Real Alignment 25: 216196 219223 | 343195 346222 | 3028 3028 | 99.47 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 117408) between these two alignments
+			Real Alignment 26: 336632 337699 | 346223 347290 | 1068 1068 | 99.53 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -122236) between these two alignments
+			Excluding internal overlap of size 11 between Alignment 27 and 28: 235781 243836 | 366132 374090 | 8056 7959 --> 235792 243836 | 366143 374090 | 8045 7948
+			Real Alignment 27: 224009 234317 | 355836 366142 | 10309 10307 | 99.26 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1474) between these two alignments
+			Real Alignment 28: 235792 243836 | 366143 374090 | 8045 7948 | 98.22 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 3014) between these two alignments
+			Real Alignment 29: 246946 247221 | 374186 374461 | 276 276 | 95.29 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 224926) between these two alignments
+			Real Alignment 30: 479941 481307 | 383621 382255 | 1367 1367 | 99.93 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 31: 73301 74340 | 385983 384943 | 1040 1041 | 99.52 | NZ_CP038997.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 32: 2329704 2331382 | 390447 392125 | 1679 1679 | 99.88 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1224337) between these two alignments
+			Real Alignment 33: 1107138 1108478 | 392218 393557 | 1341 1340 | 99.63 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 836779) between these two alignments
+			Real Alignment 34: 1946856 1948533 | 396833 395156 | 1678 1678 | 99.94 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1599171) between these two alignments
+			Real Alignment 35: 336631 337695 | 406823 407887 | 1065 1065 | 99.44 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 202314) between these two alignments
+			Real Alignment 36: 540420 540880 | 408298 408755 | 461 458 | 96.1 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -294642) between these two alignments
+			Real Alignment 37: 253636 254003 | 416153 416520 | 368 368 | 99.73 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 82628) between these two alignments
+			Real Alignment 38: 336632 337697 | 416521 417586 | 1066 1066 | 99.44 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -75355) between these two alignments
+			Excluding internal overlap of size 7 between Alignment 39 and 40: 264613 264959 | 419857 420203 | 347 347 --> 264613 264952 | 419857 420196 | 340 340
+			Real Alignment 39: 264613 264952 | 419857 420196 | 340 340 | 95.68 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1346) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 40 and 41: 336631 337695 | 425489 424425 | 1065 1065 --> 336631 337694 | 425489 424426 | 1064 1064
+			Real Alignment 40: 266299 270536 | 420197 424425 | 4238 4229 | 96.39 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 66094) between these two alignments
+			Real Alignment 41: 336631 337694 | 425489 424426 | 1064 1064 | 99.53 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 22382) between these two alignments
+			Real Alignment 42: 311662 314219 | 425519 428081 | 2558 2563 | 95.94 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1746) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 43 and 44: 337695 346927 | 452107 461330 | 9233 9224 --> 337699 346927 | 452111 461330 | 9229 9220
+			Real Alignment 43: 314349 336631 | 429957 452110 | 22283 22154 | 95.73 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1067) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 44 and 45: 336632 337697 | 461330 462395 | 1066 1066 --> 336633 337697 | 461331 462395 | 1065 1065
+			Real Alignment 44: 337699 346927 | 452111 461330 | 9229 9220 | 98.75 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -10295) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 45 and 46: 336633 337697 | 461331 462395 | 1065 1065 --> 336633 337692 | 461331 462390 | 1060 1060
+			Real Alignment 45: 336633 337692 | 461331 462390 | 1060 1060 | 99.62 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 9228) between these two alignments
+			Real Alignment 46: 346921 367720 | 462391 483191 | 20800 20801 | 99.74 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1579135) between these two alignments
+			Real Alignment 47: 1946856 1948533 | 484869 483192 | 1678 1678 | 99.94 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1554867) between these two alignments
+			Excluding internal overlap of size 10 between Alignment 48 and 49: 393501 416964 | 509258 532779 | 23464 23522 --> 393511 416964 | 509268 532779 | 23454 23512
+			Real Alignment 48: 367716 391988 | 484870 509267 | 24273 24398 | 99.35 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 49: 393511 416964 | 509268 532779 | 23454 23512 | 99.35 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1065) between these two alignments
+			Excluding internal overlap of size 24 between Alignment 50 and 51: 426141 428600 | 539349 541808 | 2460 2460 --> 426165 428600 | 539373 541808 | 2436 2436
+			Real Alignment 50: 418032 424623 | 532782 539372 | 6592 6591 | 99.91 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1541) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 51 and 52: 426165 428600 | 539373 541808 | 2436 2436 --> 426165 428598 | 539373 541806 | 2434 2434
+			Real Alignment 51: 426165 428598 | 539373 541806 | 2434 2434 | 99.96 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1783) between these two alignments
+			Real Alignment 52: 430382 447093 | 541807 558518 | 16712 16712 | 99.95 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 2690) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 53 and 54: 464369 476484 | 571772 583886 | 12116 12115 --> 464377 476484 | 571780 583886 | 12108 12107
+			Real Alignment 53: 449784 463044 | 558519 571779 | 13261 13261 | 99.86 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1332) between these two alignments
+			Real Alignment 54: 464377 476484 | 571780 583886 | 12108 12107 | 99.3 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -367
+			Real Alignment 55: 476476 479940 | 584245 587687 | 3465 3443 | 98.41 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -12696) between these two alignments
+			Real Alignment 56: 481307 534273 | 601750 654711 | 52967 52962 | 99.71 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 4911) between these two alignments
+			Real Alignment 57: 539745 542152 | 655272 657679 | 2408 2408 | 97.05 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -27
+			Excluding internal overlap of size 9 between Alignment 58 and 59: 543207 549590 | 658761 665149 | 6384 6389 --> 543207 549581 | 658761 665140 | 6375 6380
+			Real Alignment 58: 543207 549581 | 658761 665140 | 6375 6380 | 97.86 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1332) between these two alignments
+			Excluding internal overlap of size 9 between Alignment 59 and 60: 550914 585161 | 665141 699393 | 34248 34253 --> 550914 585152 | 665141 699384 | 34239 34244
+			Real Alignment 59: 550914 585152 | 665141 699384 | 34239 34244 | 99.97 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 60 and 61: 725842 771492 | 837037 882688 | 45651 45652 --> 725850 771492 | 837045 882688 | 45643 45644
+			Real Alignment 60: 586675 724327 | 699385 837044 | 137653 137660 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 61: 725850 771492 | 837045 882688 | 45643 45644 | 99.89 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -816
+			Real Alignment 62: 772784 773258 | 884796 885270 | 475 475 | 96.84 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = 138
+			Real Alignment 63: 774001 774860 | 885875 886735 | 860 861 | 96.17 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1245) between these two alignments
+			Real Alignment 64: 783151 783293 | 893781 893923 | 143 143 | 97.9 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -228
+			Excluding internal overlap of size 2 between Alignment 65 and 66: 1662512 1664025 | 907227 908740 | 1514 1514 --> 1662514 1664025 | 907229 908740 | 1512 1512
+			Real Alignment 65: 783424 796354 | 894282 907228 | 12931 12947 | 97.24 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 866159) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 66 and 67: 1662514 1664025 | 907229 908740 | 1512 1512 --> 1662514 1664024 | 907229 908739 | 1511 1511
+			Real Alignment 66: 1662514 1664024 | 907229 908739 | 1511 1511 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 337911) between these two alignments
+			Real Alignment 67: 2001936 2005659 | 912463 908740 | 3724 3724 | 99.17 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -42
+			Real Alignment 68: 1993593 2001085 | 920848 913356 | 7493 7493 | 99.35 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -220917) between these two alignments
+			Real Alignment 69: 2213750 2214073 | 921608 921285 | 324 324 | 99.69 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -142
+			Real Alignment 70: 2177893 2212374 | 957627 923126 | 34482 34502 | 99.88 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -245
+			Excluding internal overlap of size 8 between Alignment 71 and 72: 2164570 2177917 | 971200 957848 | 13348 13353 --> 2164578 2177917 | 971192 957848 | 13340 13345
+			Real Alignment 71: 2164578 2177917 | 971192 957848 | 13340 13345 | 99.9 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 72 and 73: 2096769 2115388 | 1035589 1016970 | 18620 18620 --> 2096769 2115384 | 1035589 1016974 | 18616 18616
+			Real Alignment 72: 2117276 2163055 | 1016973 971193 | 45780 45781 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1891) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 73 and 74: 2094041 2095708 | 1037251 1035584 | 1668 1668 --> 2094041 2095702 | 1037251 1035590 | 1662 1662
+			Real Alignment 73: 2096769 2115384 | 1035589 1016974 | 18616 18616 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1066) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 74 and 75: 2094041 2095702 | 1037251 1035590 | 1662 1662 --> 2094046 2095702 | 1037246 1035590 | 1657 1657
+			Real Alignment 74: 2094046 2095702 | 1037246 1035590 | 1657 1657 | 99.94 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -595240) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 75 and 76: 2687496 2689285 | 1039036 1037247 | 1790 1790 --> 2687500 2689285 | 1039032 1037247 | 1786 1786
+			Real Alignment 75: 2687500 2689285 | 1039032 1037247 | 1786 1786 | 99.94 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 593457) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 76 and 77: 2064474 2075925 | 1067079 1055628 | 11452 11452 --> 2064474 2075917 | 1067079 1055636 | 11444 11444
+			Real Alignment 76: 2077440 2094042 | 1055635 1039033 | 16603 16603 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 77 and 78: 2064474 2075917 | 1067079 1055636 | 11444 11444 --> 2064476 2075917 | 1067077 1055636 | 11442 11442
+			Real Alignment 77: 2064476 2075917 | 1067077 1055636 | 11442 11442 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1783) between these two alignments
+			Excluding internal overlap of size 7 between Alignment 78 and 79: 1964801 1991595 | 1124699 1097905 | 26795 26795 --> 1964801 1991588 | 1124699 1097912 | 26788 26788
+			Real Alignment 78: 2031859 2062692 | 1097911 1067078 | 30834 30834 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 40270) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 79 and 80: 1953473 1963286 | 1134500 1124692 | 9814 9809 --> 1953473 1963278 | 1134500 1124700 | 9806 9801
+			Real Alignment 79: 1964801 1991588 | 1124699 1097912 | 26788 26788 | 99.99 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 80: 1953473 1963278 | 1134500 1124700 | 9806 9801 | 98.56 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -15190) between these two alignments
+			Real Alignment 81: 1948561 1953410 | 1154610 1149753 | 4850 4858 | 95.72 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1281) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 82 and 83: 1944833 1946265 | 1157060 1155625 | 1433 1436 --> 1944837 1946265 | 1157056 1155625 | 1429 1432
+			Real Alignment 82: 1944837 1946265 | 1157056 1155625 | 1429 1432 | 95.76 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1066) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 83 and 84: 222396 223815 | 1210999 1212418 | 1420 1420 --> 222400 223815 | 1211003 1212418 | 1416 1416
+			Real Alignment 83: 1889654 1943770 | 1211002 1157057 | 54117 53946 | 98.47 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1665838) between these two alignments
+			Real Alignment 84: 222400 223815 | 1211003 1212418 | 1416 1416 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1644347) between these two alignments
+			Real Alignment 85: 1868163 1889656 | 1234052 1212419 | 21494 21634 | 96.94 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1500) between these two alignments
+			Real Alignment 86: 1843757 1866649 | 1256959 1234066 | 22893 22894 | 99.47 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -233683) between these two alignments
+			Real Alignment 87: 2075926 2077439 | 1258473 1256960 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 232161) between these two alignments
+			Real Alignment 88: 1832301 1843764 | 1269938 1258474 | 11464 11465 | 99.56 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1619) between these two alignments
+			Real Alignment 89: 1823327 1832302 | 1280529 1271556 | 8976 8974 | 98.69 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -6
+			Excluding internal overlap of size 2 between Alignment 90 and 91: 1808579 1821986 | 1295283 1281876 | 13408 13408 --> 1808581 1821986 | 1295281 1281876 | 13406 13406
+			Real Alignment 90: 1808581 1821986 | 1295281 1281876 | 13406 13406 | 98.64 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1783) between these two alignments
+			Real Alignment 91: 1792198 1806797 | 1309889 1295282 | 14600 14608 | 97.39 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1017) between these two alignments
+			Real Alignment 92: 1789959 1791529 | 1313145 1311575 | 1571 1571 | 97.9 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 93: 92720 94048 | 1321155 1322483 | 1329 1329 | 99.85 | NZ_CP038997.1 contig_6
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 94 and 95: 1775303 1775539 | 1331920 1331683 | 237 238 --> 1775303 1775535 | 1331920 1331687 | 233 234
+			Real Alignment 94: 1776604 1782639 | 1331686 1325651 | 6036 6036 | 98.44 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1068) between these two alignments
+			Real Alignment 95: 1775303 1775535 | 1331920 1331687 | 233 234 | 97.48 | NZ_CP038996.1 contig_6
+			  Indel (> 5bp) between these two alignments: insertion of length 119; 0 mismatches (number of Ns: 0)
+			Excluding internal overlap of size 8 between Alignment 96 and 97: 1757730 1763714 | 1348097 1342113 | 5985 5985 --> 1757730 1763706 | 1348097 1342121 | 5977 5977
+			Real Alignment 96: 1765229 1775302 | 1342120 1332040 | 10074 10081 | 95.65 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 97: 1757730 1763706 | 1348097 1342121 | 5977 5977 | 99.38 | NZ_CP038996.1 contig_6
+			  Gap between these two alignments (local misassembly). Inconsistency = -371
+			Real Alignment 98: 1750890 1757736 | 1355292 1348462 | 6847 6831 | 98.92 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -326681) between these two alignments
+			Real Alignment 99: 2075926 2077440 | 1356937 1355423 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 325037) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 100 and 101: 1745112 1750888 | 1362714 1356938 | 5777 5777 --> 1745120 1750888 | 1362706 1356938 | 5769 5769
+			Real Alignment 100: 1745120 1750888 | 1362706 1356938 | 5769 5769 | 97.91 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 101: 1734573 1743597 | 1371732 1362707 | 9025 9026 | 99.84 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 2528) between these two alignments
+			Real Alignment 102: 1730681 1732019 | 1373096 1371758 | 1339 1339 | 99.93 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1506851) between these two alignments
+			Real Alignment 103: 222400 223820 | 1373106 1374526 | 1421 1421 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1502714) between these two alignments
+			Real Alignment 104: 1726636 1730680 | 1378672 1374628 | 4045 4045 | 99.88 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 814684) between these two alignments
+			Real Alignment 105: 910437 911951 | 1378673 1380187 | 1515 1515 | 99.93 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 813290) between these two alignments
+			Real Alignment 106: 1725286 1725533 | 1380479 1380232 | 248 248 | 100.0 | NZ_CP038996.1 contig_6
+			  Indel (> 5bp) between these two alignments: deletion of length 29; 0 mismatches (number of Ns: 0)
+			Excluding internal overlap of size 3 between Alignment 107 and 108: 1724970 1725256 | 1380766 1380480 | 287 287 --> 1724973 1725256 | 1380763 1380480 | 284 284
+			Real Alignment 107: 1724973 1725256 | 1380763 1380480 | 284 284 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 1489191) between these two alignments
+			Real Alignment 108: 234315 235781 | 1382230 1380764 | 1467 1467 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = -1490661) between these two alignments
+			Real Alignment 109: 1722018 1724969 | 1385188 1382237 | 2952 2952 | 99.93 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 611544) between these two alignments
+			Real Alignment 110: 1108971 1110473 | 1385189 1386691 | 1503 1503 | 100.0 | NZ_CP038996.1 contig_6
+			  Extensive misassembly (relocation, inconsistency = 597174) between these two alignments
+			Real Alignment 111: 1707648 1722025 | 1401067 1386692 | 14378 14376 | 99.94 | NZ_CP038996.1 contig_6
+		Unaligned bases: 131083
+
+CONTIG: contig_7 (1362965bp)
+Best alignment score: 102515.4 (LEN: 102690, IDY: 99.83), Total number of alignments: 145
+			Too much alignments (145), will use speed up heuristics
+			Found 78 solid alignments:
+		Solid alignment 1704868 1706338 | 18128 16658 | 1471 1471 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 336631 337695 | 27685 26621 | 1065 1065 | 99.72 | NZ_CP038996.1 contig_7
+		Solid alignment 838169 840513 | 42881 45225 | 2345 2345 | 99.87 | NZ_CP038996.1 contig_7
+		Solid alignment 1706338 1707661 | 49622 48299 | 1324 1324 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1693624 1704872 | 60879 49614 | 11249 11266 | 99.19 | NZ_CP038996.1 contig_7
+		Solid alignment 1692370 1693631 | 63655 62394 | 1262 1262 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1730681 1732018 | 63655 64992 | 1338 1338 | 99.93 | NZ_CP038996.1 contig_7
+		Solid alignment 1687351 1692378 | 70019 64993 | 5028 5027 | 99.82 | NZ_CP038996.1 contig_7
+		Solid alignment 1730681 1732019 | 71357 70019 | 1339 1339 | 99.93 | NZ_CP038996.1 contig_7
+		Solid alignment 1107140 1108478 | 72682 74020 | 1339 1339 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1680094 1685531 | 80133 74695 | 5438 5439 | 99.87 | NZ_CP038996.1 contig_7
+		Solid alignment 1667708 1677068 | 89487 80126 | 9361 9362 | 99.86 | NZ_CP038996.1 contig_7
+		Solid alignment 2463754 2465272 | 91005 89487 | 1519 1519 | 99.93 | NZ_CP038996.1 contig_7
+		Solid alignment 302061 303595 | 93196 91658 | 1535 1539 | 99.55 | NZ_CP038996.1 contig_7
+		Solid alignment 73479 74340 | 93195 94056 | 862 862 | 99.88 | NZ_CP038997.1 contig_7
+		Solid alignment 1725534 1726595 | 94065 95126 | 1062 1062 | 99.91 | NZ_CP038996.1 contig_7
+		Solid alignment 1664026 1667259 | 98359 95126 | 3234 3234 | 99.88 | NZ_CP038996.1 contig_7
+		Solid alignment 1661696 1662511 | 99167 98352 | 816 816 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 336630 337695 | 100233 99168 | 1066 1066 | 99.81 | NZ_CP038996.1 contig_7
+		Solid alignment 1657951 1661698 | 103982 100232 | 3748 3751 | 99.57 | NZ_CP038996.1 contig_7
+		Solid alignment 771479 773296 | 106630 108447 | 1818 1818 | 96.92 | NZ_CP038996.1 contig_7
+		Solid alignment 773991 774860 | 109167 110035 | 870 869 | 95.77 | NZ_CP038996.1 contig_7
+		Solid alignment 1734573 1736679 | 140354 138246 | 2107 2109 | 96.26 | NZ_CP038996.1 contig_7
+		Solid alignment 1657060 1658024 | 141729 140767 | 965 963 | 99.48 | NZ_CP038996.1 contig_7
+		Solid alignment 1730681 1732019 | 141730 143068 | 1339 1339 | 99.93 | NZ_CP038996.1 contig_7
+		Solid alignment 547205 548740 | 145089 143550 | 1536 1540 | 99.61 | NZ_CP038996.1 contig_7
+		Solid alignment 1605010 1656607 | 196724 145088 | 51598 51637 | 99.39 | NZ_CP038996.1 contig_7
+		Solid alignment 1595710 1603945 | 204912 196722 | 8236 8191 | 98.18 | NZ_CP038996.1 contig_7
+		Solid alignment 1593296 1594345 | 205956 204907 | 1050 1050 | 98.76 | NZ_CP038996.1 contig_7
+		Solid alignment 1583072 1589916 | 212778 205976 | 6845 6803 | 98.39 | NZ_CP038996.1 contig_7
+		Solid alignment 1569510 1583068 | 226953 213396 | 13559 13558 | 99.02 | NZ_CP038996.1 contig_7
+		Solid alignment 336632 337697 | 229154 228089 | 1066 1066 | 99.72 | NZ_CP038996.1 contig_7
+		Solid alignment 1532825 1568408 | 268045 232449 | 35584 35597 | 99.54 | NZ_CP038996.1 contig_7
+		Solid alignment 1506723 1531275 | 292641 268089 | 24553 24553 | 99.97 | NZ_CP038996.1 contig_7
+		Solid alignment 1482354 1504831 | 315119 292642 | 22478 22478 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1434062 1482363 | 364934 316632 | 48302 48303 | 99.99 | NZ_CP038996.1 contig_7
+		Solid alignment 1418592 1432547 | 378882 364927 | 13956 13956 | 99.98 | NZ_CP038996.1 contig_7
+		Solid alignment 1414714 1416700 | 380869 378883 | 1987 1987 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1404360 1414721 | 392745 382384 | 10362 10362 | 99.93 | NZ_CP038996.1 contig_7
+		Solid alignment 1358775 1404345 | 439908 394190 | 45571 45719 | 99.57 | NZ_CP038996.1 contig_7
+		Solid alignment 1308552 1357271 | 488621 439901 | 48720 48721 | 99.96 | NZ_CP038996.1 contig_7
+		Solid alignment 1467202 1468278 | 488610 489686 | 1077 1077 | 99.81 | NZ_CP038996.1 contig_7
+		Solid alignment 1265183 1308554 | 533054 489686 | 43372 43369 | 99.98 | NZ_CP038996.1 contig_7
+		Solid alignment 1162502 1265190 | 637258 534569 | 102689 102690 | 99.83 | NZ_CP038996.1 contig_7
+		Solid alignment 1119144 1160984 | 679055 637224 | 41841 41832 | 99.63 | NZ_CP038996.1 contig_7
+		Solid alignment 1110475 1117630 | 686202 679047 | 7156 7156 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1106254 1108969 | 688911 686196 | 2716 2716 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 1025889 1104362 | 767348 688912 | 78474 78437 | 99.68 | NZ_CP038996.1 contig_7
+		Solid alignment 998219 1025865 | 796633 768863 | 27647 27771 | 99.28 | NZ_CP038996.1 contig_7
+		Solid alignment 987875 997153 | 805909 796631 | 9279 9279 | 99.96 | NZ_CP038996.1 contig_7
+		Solid alignment 914581 966221 | 869686 818045 | 51641 51642 | 99.98 | NZ_CP038996.1 contig_7
+		Solid alignment 911951 914589 | 873838 871200 | 2639 2639 | 99.96 | NZ_CP038996.1 contig_7
+		Solid alignment 899037 910420 | 886744 875358 | 11384 11387 | 99.91 | NZ_CP038996.1 contig_7
+		Solid alignment 855318 899045 | 932139 888258 | 43728 43882 | 99.54 | NZ_CP038996.1 contig_7
+		Solid alignment 838169 840513 | 934484 932140 | 2345 2345 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 848454 855456 | 941486 934484 | 7003 7003 | 98.3 | NZ_CP038996.1 contig_7
+		Solid alignment 802768 832893 | 983281 953155 | 30126 30127 | 99.77 | NZ_CP038996.1 contig_7
+		Solid alignment 1993586 2000306 | 978276 984997 | 6721 6722 | 98.59 | NZ_CP038996.1 contig_7
+		Solid alignment 2214055 2226786 | 1021811 1034542 | 12732 12732 | 99.92 | NZ_CP038996.1 contig_7
+		Solid alignment 955141 956205 | 1034658 1035724 | 1065 1067 | 99.81 | NZ_CP038996.1 contig_7
+		Solid alignment 2331383 2348177 | 1035940 1052734 | 16795 16795 | 99.96 | NZ_CP038996.1 contig_7
+		Solid alignment 73301 74342 | 1052735 1053776 | 1042 1042 | 99.9 | NZ_CP038997.1 contig_7
+		Solid alignment 2348169 2377273 | 1053774 1082887 | 29105 29114 | 99.92 | NZ_CP038996.1 contig_7
+		Solid alignment 1108971 1110475 | 1082888 1084392 | 1505 1505 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 2377266 2381520 | 1084391 1088645 | 4255 4255 | 99.98 | NZ_CP038996.1 contig_7
+		Solid alignment 2383024 2440661 | 1088638 1146275 | 57638 57638 | 99.96 | NZ_CP038996.1 contig_7
+		Solid alignment 2441723 2463757 | 1146269 1168310 | 22035 22042 | 98.79 | NZ_CP038996.1 contig_7
+		Solid alignment 2465271 2491787 | 1168302 1194812 | 26517 26511 | 99.92 | NZ_CP038996.1 contig_7
+		Solid alignment 2493466 2505154 | 1194807 1206494 | 11689 11688 | 99.68 | NZ_CP038996.1 contig_7
+		Solid alignment 2503877 2530556 | 1204939 1231617 | 26680 26679 | 99.93 | NZ_CP038996.1 contig_7
+		Solid alignment 2530549 2531940 | 1233132 1234523 | 1392 1392 | 100.0 | NZ_CP038996.1 contig_7
+		Solid alignment 2533455 2541621 | 1234517 1242683 | 8167 8167 | 99.91 | NZ_CP038996.1 contig_7
+		Solid alignment 2541614 2618658 | 1244198 1321241 | 77045 77044 | 99.96 | NZ_CP038996.1 contig_7
+		Solid alignment 2618887 2637228 | 1321228 1339485 | 18342 18258 | 99.28 | NZ_CP038996.1 contig_7
+		Solid alignment 2641511 2647218 | 1339684 1345518 | 5708 5835 | 95.99 | NZ_CP038996.1 contig_7
+		Solid alignment 2647546 2649171 | 1346124 1347749 | 1626 1626 | 96.68 | NZ_CP038996.1 contig_7
+		Solid alignment 2655827 2665963 | 1347882 1357818 | 10137 9937 | 97.73 | NZ_CP038996.1 contig_7
+		Solid alignment 2665962 2668399 | 1360528 1362965 | 2438 2438 | 100.0 | NZ_CP038996.1 contig_7
+			Skipping alignments located inside solid regions since they are redundant:
+		Nothing was skipped
+			Looking for the best set of alignments (out of 145 total alignments)
+		Ambiguity for this contig is not checked for speed up (too much alignments and --ambiguity-usage is "one")
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 391987 393501 | 1231618 1233132 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1677113 1678628 | 1233133 1231618 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 724328 725841 | 1244197 1242684 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2463758 2465271 | 62393 60880 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1531311 1532825 | 62393 60879 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1662511 1664025 | 60879 62393 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 724326 725841 | 60878 62393 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1432547 1434061 | 62394 60880 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1117629 1119144 | 62394 60879 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2163055 2164570 | 60879 62394 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1963286 1964803 | 62394 60877 | 1518 1518 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1888527 1890045 | 62395 60877 | 1519 1519 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2163056 2164570 | 1244197 1242683 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1888528 1890042 | 1242683 1244197 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1963286 1964800 | 1242683 1244197 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1117628 1119143 | 1242682 1244197 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1432546 1434061 | 1242682 1244197 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 803849 804088 | 74020 74259 | 240 240 | 95.85 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 254132 254328 | 91462 91658 | 197 197 | 99.49 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1677113 1678628 | 315116 316631 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 391983 393501 | 316635 315117 | 1519 1519 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1662511 1664025 | 380869 382383 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2163055 2164569 | 380869 382383 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1117630 1119144 | 382383 380869 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 724326 725841 | 380868 382383 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1963287 1964802 | 382383 380868 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1888529 1890044 | 382383 380868 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 391987 393500 | 534568 533055 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 910437 911954 | 533055 534572 | 1518 1518 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1888529 1890042 | 767349 768862 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1531311 1532824 | 767349 768862 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2463758 2465271 | 767349 768862 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2163056 2164569 | 768862 767349 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1432548 1434061 | 767349 768862 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1662512 1664026 | 768862 767348 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 724328 725842 | 768862 767348 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1963280 1964800 | 767342 768862 | 1521 1521 | 99.93 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 373934 374098 | 810571 810406 | 165 166 | 96.39 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1677115 1678628 | 871199 869686 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1763714 1765228 | 869685 871199 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 910437 911951 | 871199 869685 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2463758 2465271 | 886745 888258 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2163055 2164569 | 888259 886745 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 1662511 1664025 | 888259 886745 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2319896 2320018 | 1034535 1034657 | 123 123 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 2329482 2329704 | 1035723 1035945 | 223 223 | 100.0 | NZ_CP038996.1 contig_7
+		Skipping redundant alignment 910436 911950 | 1233132 1231618 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_7
+			The best set is below. Score: 1189837.4, number of alignments: 98, unaligned bases: 146973
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 1215992 out of 1362965 non-N bases (89.22%))
+			Real Alignment 1: 1704868 1706338 | 18128 16658 | 1471 1471 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1358680) between these two alignments
+			Real Alignment 2: 336631 337695 | 27685 26621 | 1065 1065 | 99.72 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 485278) between these two alignments
+			Real Alignment 3: 838169 840513 | 42881 45225 | 2345 2345 | 99.87 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 862751) between these two alignments
+			Excluding internal overlap of size 9 between Alignment 4 and 5: 1706338 1707661 | 49622 48299 | 1324 1324 --> 1706347 1707661 | 49613 48299 | 1315 1315
+			Real Alignment 4: 1706347 1707661 | 49613 48299 | 1315 1315 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1474) between these two alignments
+			Real Alignment 5: 1693624 1704872 | 60879 49614 | 11249 11266 | 99.19 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 479145) between these two alignments
+			Real Alignment 6: 1212965 1214478 | 60880 62393 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 477891) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 7 and 8: 1692370 1693631 | 63655 62394 | 1262 1262 --> 1692371 1693631 | 63654 62394 | 1261 1261
+			Real Alignment 7: 1692371 1693631 | 63654 62394 | 1261 1261 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 37049) between these two alignments
+			Real Alignment 8: 1730681 1732018 | 63655 64992 | 1338 1338 | 99.93 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 38302) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 9 and 10: 1730681 1732019 | 71357 70019 | 1339 1339 --> 1730681 1732018 | 71357 70020 | 1338 1338
+			Real Alignment 9: 1687351 1692378 | 70019 64993 | 5028 5027 | 99.82 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -44668) between these two alignments
+			Real Alignment 10: 1730681 1732018 | 71357 70020 | 1338 1338 | 99.93 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 43322) between these two alignments
+			Real Alignment 11: 1686888 1687358 | 71828 71358 | 471 471 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1068) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 12 and 13: 1685523 1685819 | 72125 71829 | 297 297 --> 1685525 1685819 | 72123 71829 | 295 295
+			Real Alignment 12: 1685525 1685819 | 72123 71829 | 295 295 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -312533) between these two alignments
+			Real Alignment 13: 1997556 1998057 | 72626 72124 | 502 503 | 97.42 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 889022) between these two alignments
+			Real Alignment 14: 1107140 1108478 | 72682 74020 | 1339 1339 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 570941) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 15 and 16: 1680094 1685531 | 80133 74695 | 5438 5439 --> 1680102 1685531 | 80125 74695 | 5430 5431
+			Real Alignment 15: 1680102 1685531 | 80125 74695 | 5430 5431 | 99.87 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 3033) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 16 and 17: 2463754 2465272 | 91005 89487 | 1519 1519 --> 2463754 2465271 | 91005 89488 | 1518 1518
+			Real Alignment 16: 1667708 1677068 | 89487 80126 | 9361 9362 | 99.86 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -797564) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 17 and 18: 1667254 1667715 | 91463 91002 | 462 462 --> 1667254 1667711 | 91463 91006 | 458 458
+			Real Alignment 17: 2463754 2465271 | 91005 89488 | 1518 1518 | 99.93 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 796042) between these two alignments
+			Real Alignment 18: 1667254 1667711 | 91463 91006 | 458 458 | 99.78 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1363464) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 19 and 20: 73479 74340 | 93195 94056 | 862 862 --> 73481 74340 | 93197 94056 | 860 860
+			Real Alignment 19: 302061 303595 | 93196 91658 | 1535 1539 | 99.55 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 20: 73481 74340 | 93197 94056 | 860 860 | 99.88 | NZ_CP038997.1 contig_7
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 21 and 22: 1725534 1726595 | 94065 95126 | 1062 1062 --> 1725534 1726594 | 94065 95125 | 1061 1061
+			Real Alignment 21: 1725534 1726594 | 94065 95125 | 1061 1061 | 99.91 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 58274) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 22 and 23: 1661696 1662511 | 99167 98352 | 816 816 --> 1661696 1662503 | 99167 98360 | 808 808
+			Real Alignment 22: 1664026 1667259 | 98359 95126 | 3234 3234 | 99.88 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 23: 1661696 1662503 | 99167 98360 | 808 808 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1324000) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 24 and 25: 336630 337695 | 100233 99168 | 1066 1066 --> 336632 337695 | 100231 99168 | 1064 1064
+			Real Alignment 24: 336632 337695 | 100231 99168 | 1064 1064 | 99.81 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -1325067) between these two alignments
+			Real Alignment 25: 1657951 1661698 | 103982 100232 | 3748 3751 | 99.57 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 882007) between these two alignments
+			Real Alignment 26: 771479 773296 | 106630 108447 | 1818 1818 | 96.92 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = -25
+			Real Alignment 27: 773991 774860 | 109167 110035 | 870 869 | 95.77 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1531126) between these two alignments
+			Real Alignment 28: 2308933 2309233 | 113282 112982 | 301 301 | 95.35 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = -290
+			Real Alignment 29: 2308643 2308947 | 113862 113558 | 305 305 | 98.03 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = 45
+			Real Alignment 30: 2307363 2307567 | 115097 114893 | 205 205 | 95.61 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 547535) between these two alignments
+			Real Alignment 31: 1734573 1736679 | 140354 138246 | 2107 2109 | 96.26 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 76136) between these two alignments
+			Real Alignment 32: 1657060 1658024 | 141729 140767 | 965 963 | 99.48 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 72656) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 33 and 34: 1656584 1657067 | 143551 143068 | 484 484 --> 1656584 1657066 | 143551 143069 | 483 483
+			Real Alignment 33: 1730681 1732019 | 141730 143068 | 1339 1339 | 99.93 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 73614) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 34 and 35: 1656584 1657066 | 143551 143069 | 483 483 --> 1656586 1657066 | 143549 143069 | 481 481
+			Real Alignment 34: 1656586 1657066 | 143549 143069 | 481 481 | 99.79 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1107845) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 35 and 36: 547205 548740 | 145089 143550 | 1536 1540 --> 547207 548740 | 145087 143550 | 1534 1538
+			Real Alignment 35: 547207 548740 | 145087 143550 | 1534 1538 | 99.61 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -1109401) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 36 and 37: 1595710 1603945 | 204912 196722 | 8236 8191 --> 1595710 1603942 | 204912 196725 | 8233 8188
+			Real Alignment 36: 1605010 1656607 | 196724 145088 | 51598 51637 | 99.39 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1067) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 37 and 38: 1593296 1594345 | 205956 204907 | 1050 1050 --> 1593296 1594339 | 205956 204913 | 1044 1044
+			Real Alignment 37: 1595710 1603942 | 204912 196725 | 8233 8188 | 98.18 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1370) between these two alignments
+			Real Alignment 38: 1593296 1594339 | 205956 204913 | 1044 1044 | 98.76 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 3360) between these two alignments
+			Real Alignment 39: 1583072 1589916 | 212778 205976 | 6845 6803 | 98.39 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = -614
+			Real Alignment 40: 1569510 1583068 | 226953 213396 | 13559 13558 | 99.02 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1230677) between these two alignments
+			Real Alignment 41: 336632 337697 | 229154 228089 | 1066 1066 | 99.72 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -1235079) between these two alignments
+			Real Alignment 42: 1568654 1569134 | 232211 231731 | 481 481 | 98.75 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = 8
+			Real Alignment 43: 1532825 1568408 | 268045 232449 | 35584 35597 | 99.54 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1506) between these two alignments
+			Real Alignment 44: 1506723 1531275 | 292641 268089 | 24553 24553 | 99.97 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1891) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 45 and 46: 910436 911950 | 315117 316631 | 1515 1515 --> 910439 911950 | 315120 316631 | 1512 1512
+			Real Alignment 45: 1482354 1504831 | 315119 292642 | 22478 22478 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 570403) between these two alignments
+			Real Alignment 46: 910439 911950 | 315120 316631 | 1512 1512 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 522111) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 47 and 48: 1418592 1432547 | 378882 364927 | 13956 13956 --> 1418592 1432539 | 378882 364935 | 13948 13948
+			Real Alignment 47: 1434062 1482363 | 364934 316632 | 48302 48303 | 99.99 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Real Alignment 48: 1418592 1432539 | 378882 364935 | 13948 13948 | 99.98 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1891) between these two alignments
+			Real Alignment 49: 1414714 1416700 | 380869 378883 | 1987 1987 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -19348) between these two alignments
+			Real Alignment 50: 1432548 1434061 | 382383 380870 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 17826) between these two alignments
+			Real Alignment 51: 1404360 1414721 | 392745 382384 | 10362 10362 | 99.93 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -1430) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 52 and 53: 1358775 1404345 | 439908 394190 | 45571 45719 --> 1358783 1404345 | 439900 394190 | 45563 45711
+			Real Alignment 52: 1358783 1404345 | 439900 394190 | 45563 45711 | 99.57 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1511) between these two alignments
+			Excluding internal overlap of size 12 between Alignment 53 and 54: 1467202 1468278 | 488610 489686 | 1077 1077 --> 1467214 1468278 | 488622 489686 | 1065 1065
+			Real Alignment 53: 1308552 1357271 | 488621 439901 | 48720 48721 | 99.96 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 109942) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 54 and 55: 1467214 1468278 | 488622 489686 | 1065 1065 --> 1467214 1468277 | 488622 489685 | 1064 1064
+			Real Alignment 54: 1467214 1468277 | 488622 489685 | 1064 1064 | 99.81 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 158659) between these two alignments
+			Real Alignment 55: 1265183 1308554 | 533054 489686 | 43372 43369 | 99.98 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 368560) between these two alignments
+			Real Alignment 56: 1677115 1678628 | 533055 534568 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 411924) between these two alignments
+			Excluding internal overlap of size 35 between Alignment 57 and 58: 1119144 1160984 | 679055 637224 | 41841 41832 --> 1119144 1160949 | 679055 637259 | 41806 41797
+			Real Alignment 57: 1162502 1265190 | 637258 534569 | 102689 102690 | 99.83 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1552) between these two alignments
+			Excluding internal overlap of size 9 between Alignment 58 and 59: 1110475 1117630 | 686202 679047 | 7156 7156 --> 1110475 1117621 | 686202 679056 | 7147 7147
+			Real Alignment 58: 1119144 1160949 | 679055 637259 | 41806 41797 | 99.63 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Excluding internal overlap of size 7 between Alignment 59 and 60: 1106254 1108969 | 688911 686196 | 2716 2716 --> 1106254 1108962 | 688911 686203 | 2709 2709
+			Real Alignment 59: 1110475 1117621 | 686202 679056 | 7147 7147 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1512) between these two alignments
+			Real Alignment 60: 1106254 1108962 | 688911 686203 | 2709 2709 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1891) between these two alignments
+			Real Alignment 61: 1025889 1104362 | 767348 688912 | 78474 78437 | 99.68 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 13267) between these two alignments
+			Real Alignment 62: 1117630 1119143 | 767349 768862 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 91764) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 63 and 64: 987875 997153 | 805909 796631 | 9279 9279 --> 987875 997150 | 805909 796634 | 9276 9276
+			Real Alignment 63: 998219 1025865 | 796633 768863 | 27647 27771 | 99.28 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1068) between these two alignments
+			Real Alignment 64: 987875 997150 | 805909 796634 | 9276 9276 | 99.96 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 9518) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 65 and 66: 391987 393500 | 869686 871199 | 1514 1514 --> 391988 393500 | 869687 871199 | 1513 1513
+			Real Alignment 65: 914581 966221 | 869686 818045 | 51641 51642 | 99.98 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 521080) between these two alignments
+			Real Alignment 66: 391988 393500 | 869687 871199 | 1513 1513 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 518450) between these two alignments
+			Real Alignment 67: 911951 914589 | 873838 871200 | 2639 2639 | 99.96 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = 11
+			Real Alignment 68: 899037 910420 | 886744 875358 | 11384 11387 | 99.91 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 312362) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 69 and 70: 585161 586674 | 888258 886745 | 1514 1514 --> 585162 586674 | 888257 886745 | 1513 1513
+			Real Alignment 69: 585162 586674 | 888257 886745 | 1513 1513 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -313884) between these two alignments
+			Real Alignment 70: 855318 899045 | 932139 888258 | 43728 43882 | 99.54 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 14804) between these two alignments
+			Excluding internal overlap of size 1 between Alignment 71 and 72: 838169 840513 | 934484 932140 | 2345 2345 --> 838170 840513 | 934483 932140 | 2344 2344
+			Real Alignment 71: 838170 840513 | 934483 932140 | 2344 2344 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -17287) between these two alignments
+			Real Alignment 72: 848454 855456 | 941486 934484 | 7003 7003 | 98.3 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 3892) between these two alignments
+			Excluding internal overlap of size 5006 between Alignment 73 and 74: 1993586 2000306 | 978276 984997 | 6721 6722 --> 1998591 2000306 | 983282 984997 | 1716 1716
+			Real Alignment 73: 802768 832893 | 983281 953155 | 30126 30127 | 99.77 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1165697) between these two alignments
+			Real Alignment 74: 1998591 2000306 | 983282 984997 | 1716 1716 | 98.59 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 282840) between these two alignments
+			Real Alignment 75: 2305573 2305661 | 1007424 1007512 | 89 89 | 95.51 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = -672
+			Real Alignment 76: 2316943 2317584 | 1019466 1020108 | 642 643 | 95.18 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -105232) between these two alignments
+			Real Alignment 77: 2214055 2226786 | 1021811 1034542 | 12732 12732 | 99.92 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -1271761) between these two alignments
+			Real Alignment 78: 955141 956205 | 1034658 1035724 | 1065 1067 | 99.81 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1374962) between these two alignments
+			Real Alignment 79: 2331383 2348177 | 1035940 1052734 | 16795 16795 | 99.96 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 80 and 81: 73301 74342 | 1052735 1053776 | 1042 1042 --> 73301 74339 | 1052735 1053773 | 1039 1039
+			Real Alignment 80: 73301 74339 | 1052735 1053773 | 1039 1039 | 99.9 | NZ_CP038997.1 contig_7
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 81: 2348169 2377273 | 1053774 1082887 | 29105 29114 | 99.92 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -1268303) between these two alignments
+			Excluding internal overlap of size 2 between Alignment 82 and 83: 1108971 1110475 | 1082888 1084392 | 1505 1505 --> 1108971 1110473 | 1082888 1084390 | 1503 1503
+			Real Alignment 82: 1108971 1110473 | 1082888 1084390 | 1503 1503 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1266792) between these two alignments
+			Excluding internal overlap of size 8 between Alignment 83 and 84: 2377266 2381520 | 1084391 1088645 | 4255 4255 --> 2377266 2381512 | 1084391 1088637 | 4247 4247
+			Real Alignment 83: 2377266 2381512 | 1084391 1088637 | 4247 4247 | 99.98 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1511) between these two alignments
+			Excluding internal overlap of size 7 between Alignment 84 and 85: 2441723 2463757 | 1146269 1168310 | 22035 22042 --> 2441730 2463757 | 1146276 1168310 | 22028 22035
+			Real Alignment 84: 2383024 2440661 | 1088638 1146275 | 57638 57638 | 99.96 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1068) between these two alignments
+			Excluding internal overlap of size 9 between Alignment 85 and 86: 2441730 2463757 | 1146276 1168310 | 22028 22035 --> 2441730 2463748 | 1146276 1168301 | 22019 22026
+			Real Alignment 85: 2441730 2463748 | 1146276 1168301 | 22019 22026 | 98.79 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1522) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 86 and 87: 2493466 2505154 | 1194807 1206494 | 11689 11688 --> 2493472 2505154 | 1194813 1206494 | 11683 11682
+			Real Alignment 86: 2465271 2491787 | 1168302 1194812 | 26517 26511 | 99.92 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1684) between these two alignments
+			Excluding internal overlap of size 1556 between Alignment 87 and 88: 2493472 2505154 | 1194813 1206494 | 11683 11682 --> 2493472 2503597 | 1194813 1204938 | 10126 10126
+			Real Alignment 87: 2493472 2503597 | 1194813 1204938 | 10126 10126 | 99.68 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = 279
+			Real Alignment 88: 2503877 2530556 | 1204939 1231617 | 26680 26679 | 99.93 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -454631) between these two alignments
+			Real Alignment 89: 2075926 2077439 | 1231618 1233131 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 453109) between these two alignments
+			Excluding internal overlap of size 7 between Alignment 90 and 91: 2530549 2531940 | 1233132 1234523 | 1392 1392 --> 2530549 2531933 | 1233132 1234516 | 1385 1385
+			Real Alignment 90: 2530549 2531933 | 1233132 1234516 | 1385 1385 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 1521) between these two alignments
+			Real Alignment 91: 2533455 2541621 | 1234517 1242683 | 8167 8167 | 99.91 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 869429) between these two alignments
+			Real Alignment 92: 1662512 1664025 | 1244197 1242684 | 1514 1514 | 100.0 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 877588) between these two alignments
+			Excluding internal overlap of size 14 between Alignment 93 and 94: 2618887 2637228 | 1321228 1339485 | 18342 18258 --> 2618901 2637228 | 1321242 1339485 | 18328 18244
+			Real Alignment 93: 2541614 2618658 | 1244198 1321241 | 77045 77044 | 99.96 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = 242
+			Real Alignment 94: 2618901 2637228 | 1321242 1339485 | 18328 18244 | 99.28 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 4084) between these two alignments
+			Real Alignment 95: 2641511 2647218 | 1339684 1345518 | 5708 5835 | 95.99 | NZ_CP038996.1 contig_7
+			  Gap between these two alignments (local misassembly). Inconsistency = -278
+			Real Alignment 96: 2647546 2649171 | 1346124 1347749 | 1626 1626 | 96.68 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = 6523) between these two alignments
+			Real Alignment 97: 2655827 2665963 | 1347882 1357818 | 10137 9937 | 97.73 | NZ_CP038996.1 contig_7
+			  Extensive misassembly (relocation, inconsistency = -2711) between these two alignments
+			Real Alignment 98: 2665962 2668399 | 1360528 1362965 | 2438 2438 | 100.0 | NZ_CP038996.1 contig_7
+		Unaligned bases: 146973
+
+CONTIG: contig_8 (10762bp)
+Best alignment score: 1182.9 (LEN: 1233, IDY: 95.94), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 978630 978707 | 78 1 | 78 78 | 100.0 | NZ_CP038996.1 contig_8
+		Skipping redundant alignment 979082 979890 | 5683 6491 | 809 809 | 99.63 | NZ_CP038996.1 contig_8
+		Skipping redundant alignment 977822 978630 | 6491 5683 | 809 809 | 99.63 | NZ_CP038996.1 contig_8
+		Skipping redundant alignment 61628 62436 | 6491 5683 | 809 809 | 99.51 | NZ_CP038997.1 contig_8
+		Skipping redundant alignment 55467 56275 | 6491 5683 | 809 809 | 99.51 | NZ_CP038997.1 contig_8
+		Skipping redundant alignment 966222 967032 | 6491 5681 | 811 811 | 99.75 | NZ_CP038996.1 contig_8
+		Skipping redundant alignment 102145 102954 | 5683 6492 | 810 810 | 100.0 | NZ_CP038997.1 contig_8
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 1742.9, number of alignments: 2, unaligned bases: 8717
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 2045 out of 10762 non-N bases (19.00%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 10762 (number of Ns: 0) and total length of all aligns is 2045
+		Alignment: 987065 987876 | 6492 5681 | 812 812 | 99.75 | NZ_CP038996.1 contig_8
+		Alignment: 973578 974810 | 6512 7744 | 1233 1233 | 95.94 | NZ_CP038996.1 contig_8
+		Unaligned bases: 8717
+
+CONTIG: contig_9 (202266bp)
+Best alignment score: 2786.4 (LEN: 2847, IDY: 97.87), Total number of alignments: 100
+			Looking for the best set of alignments (out of 100 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2075926 2077439 | 11953 10440 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 391987 393501 | 11953 10439 | 1515 1515 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1743597 1745111 | 11954 10440 | 1515 1515 | 99.8 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 910436 911951 | 10439 11954 | 1516 1516 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1763714 1765230 | 11954 10438 | 1517 1517 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2531939 2533456 | 11955 10438 | 1518 1518 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2075926 2077365 | 13393 11954 | 1440 1440 | 99.79 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 391987 393426 | 13393 11954 | 1440 1440 | 99.79 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1763714 1765154 | 13394 11954 | 1441 1441 | 99.79 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 910511 911951 | 11954 13394 | 1441 1441 | 99.79 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1743597 1745037 | 13394 11954 | 1441 1441 | 99.72 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2531939 2533380 | 13395 11954 | 1442 1442 | 99.79 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1160984 1162502 | 21502 23020 | 1519 1519 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1678629 1680093 | 50672 52136 | 1465 1465 | 99.93 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1357272 1358774 | 52136 50634 | 1503 1503 | 99.93 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2381521 2383023 | 52136 50634 | 1503 1503 | 99.93 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1731773 1732018 | 74801 74556 | 246 246 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1763715 1765228 | 86289 84776 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2531941 2533454 | 86289 84776 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2075926 2077439 | 86289 84776 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1677115 1678628 | 84776 86289 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 391987 393500 | 86289 84776 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1743598 1745111 | 86289 84776 | 1514 1514 | 99.8 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 840434 840514 | 86290 86370 | 81 81 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 302063 303594 | 88149 86614 | 1532 1536 | 99.09 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 206383 208278 | 121436 119541 | 1896 1896 | 99.95 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 70348 72243 | 121436 119541 | 1896 1896 | 99.95 | NZ_CP038997.1 contig_9
+		Skipping redundant alignment 52442 54337 | 119541 121436 | 1896 1896 | 99.95 | NZ_CP038997.1 contig_9
+		Skipping redundant alignment 2115389 2117284 | 119541 121436 | 1896 1896 | 99.89 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 29465 31360 | 119541 121436 | 1896 1896 | 99.89 | NZ_CP038997.1 contig_9
+		Skipping redundant alignment 1504831 1506727 | 119540 121436 | 1897 1897 | 99.95 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 19220 21116 | 119541 121437 | 1897 1897 | 99.89 | NZ_CP038997.1 contig_9
+		Skipping redundant alignment 97232 99128 | 121437 119541 | 1897 1897 | 99.89 | NZ_CP038997.1 contig_9
+		Skipping redundant alignment 1416701 1418599 | 119541 121439 | 1899 1899 | 99.95 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1743598 1745111 | 121530 123043 | 1514 1514 | 99.93 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2075923 2077439 | 121527 123043 | 1517 1517 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2531941 2533455 | 121530 123044 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1763715 1765229 | 121530 123044 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 910436 911950 | 123044 121530 | 1515 1515 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1677114 1678629 | 123044 121529 | 1516 1516 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 180690 182107 | 124772 126189 | 1418 1418 | 99.79 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1160984 1162502 | 137800 136282 | 1519 1519 | 100.0 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 479940 481306 | 151387 152752 | 1367 1366 | 99.93 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 428595 430384 | 153607 155396 | 1790 1790 | 99.94 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2687496 2689284 | 153609 155397 | 1789 1789 | 99.94 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 281376 283166 | 155397 153607 | 1791 1791 | 99.94 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 958613 960403 | 155397 153607 | 1791 1791 | 99.94 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1806792 1808582 | 153607 155397 | 1791 1791 | 99.94 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1727692 1729482 | 153607 155397 | 1791 1791 | 99.94 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1456392 1458182 | 153607 155397 | 1791 1791 | 99.89 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1946856 1948533 | 159155 160832 | 1678 1678 | 99.88 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 2491788 2493465 | 159155 160832 | 1678 1678 | 99.88 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 1726492 1726595 | 161039 160936 | 104 104 | 99.04 | NZ_CP038996.1 contig_9
+		Skipping redundant alignment 260058 260287 | 173553 173324 | 230 230 | 99.57 | NZ_CP038996.1 contig_9
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 47948.7, number of alignments: 46, unaligned bases: 143376
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 58890 out of 202266 non-N bases (29.12%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 202266 (number of Ns: 0) and total length of all aligns is 58890
+		Alignment: 1677113 1678628 | 10438 11953 | 1516 1516 | 99.87 | NZ_CP038996.1 contig_9
+		Alignment: 1677189 1678628 | 11954 13393 | 1440 1440 | 99.79 | NZ_CP038996.1 contig_9
+		Alignment: 1677189 1680093 | 13394 16240 | 2905 2847 | 97.87 | NZ_CP038996.1 contig_9
+		Alignment: 102146 102953 | 19030 18224 | 808 807 | 99.5 | NZ_CP038997.1 contig_9
+		Alignment: 424614 426150 | 23029 21493 | 1537 1537 | 99.87 | NZ_CP038996.1 contig_9
+		Alignment: 983432 983856 | 23569 23145 | 425 425 | 99.76 | NZ_CP038996.1 contig_9
+		Alignment: 979080 979525 | 23953 23509 | 446 445 | 98.43 | NZ_CP038996.1 contig_9
+		Alignment: 19219 21116 | 28046 26149 | 1898 1898 | 95.63 | NZ_CP038997.1 contig_9
+		Alignment: 977822 978630 | 38904 38096 | 809 809 | 99.63 | NZ_CP038996.1 contig_9
+		Alignment: 966221 967030 | 45943 45134 | 810 810 | 99.75 | NZ_CP038996.1 contig_9
+		Alignment: 1108971 1110475 | 50634 52138 | 1505 1505 | 99.93 | NZ_CP038996.1 contig_9
+		Alignment: 1239983 1241044 | 55560 54499 | 1062 1062 | 99.62 | NZ_CP038996.1 contig_9
+		Alignment: 1465787 1467127 | 56954 58294 | 1341 1341 | 100.0 | NZ_CP038996.1 contig_9
+		Alignment: 997154 997851 | 58981 59678 | 698 698 | 100.0 | NZ_CP038996.1 contig_9
+		Alignment: 128479 129794 | 61007 59692 | 1316 1316 | 99.77 | NZ_CP038996.1 contig_9
+		Alignment: 336632 337695 | 66388 65325 | 1064 1064 | 99.72 | NZ_CP038996.1 contig_9
+		Alignment: 73301 74340 | 68385 69424 | 1040 1040 | 99.62 | NZ_CP038997.1 contig_9
+		Alignment: 19219 21116 | 72343 70446 | 1898 1898 | 95.52 | NZ_CP038997.1 contig_9
+		Alignment: 804089 805454 | 76165 74800 | 1366 1366 | 99.41 | NZ_CP038996.1 contig_9
+		Alignment: 1995903 1997269 | 77415 78781 | 1367 1367 | 99.71 | NZ_CP038996.1 contig_9
+		Alignment: 838169 840442 | 82504 84776 | 2274 2273 | 99.96 | NZ_CP038996.1 contig_9
+		Alignment: 910437 911950 | 84776 86289 | 1514 1514 | 99.87 | NZ_CP038996.1 contig_9
+		Alignment: 547207 548738 | 86614 88149 | 1532 1536 | 99.02 | NZ_CP038996.1 contig_9
+		Alignment: 548738 548896 | 88559 88717 | 159 159 | 96.23 | NZ_CP038996.1 contig_9
+		Alignment: 1720635 1722134 | 96225 97724 | 1500 1500 | 99.6 | NZ_CP038996.1 contig_9
+		Alignment: 1720631 1722139 | 115629 114121 | 1509 1509 | 98.28 | NZ_CP038996.1 contig_9
+		Alignment: 1107138 1108477 | 119120 117781 | 1340 1340 | 99.78 | NZ_CP038996.1 contig_9
+		Alignment: 1104357 1106253 | 121437 119541 | 1897 1897 | 99.95 | NZ_CP038996.1 contig_9
+		Alignment: 391987 393505 | 121530 123048 | 1519 1519 | 100.0 | NZ_CP038996.1 contig_9
+		Alignment: 222400 223815 | 126189 124774 | 1416 1416 | 99.93 | NZ_CP038996.1 contig_9
+		Alignment: 2052534 2053900 | 126319 127685 | 1367 1367 | 99.85 | NZ_CP038996.1 contig_9
+		Alignment: 29464 31360 | 134344 136240 | 1897 1897 | 95.52 | NZ_CP038997.1 contig_9
+		Alignment: 424623 426141 | 136282 137800 | 1519 1519 | 100.0 | NZ_CP038996.1 contig_9
+		Alignment: 479941 481306 | 138263 139627 | 1366 1365 | 99.85 | NZ_CP038996.1 contig_9
+		Alignment: 955141 956205 | 145509 146573 | 1065 1065 | 100.0 | NZ_CP038996.1 contig_9
+		Alignment: 2052532 2053899 | 151386 152752 | 1368 1367 | 99.93 | NZ_CP038996.1 contig_9
+		Alignment: 2062687 2064478 | 153607 155398 | 1792 1792 | 99.94 | NZ_CP038996.1 contig_9
+		Alignment: 2329703 2331382 | 159153 160832 | 1680 1680 | 99.88 | NZ_CP038996.1 contig_9
+		Alignment: 443473 443594 | 161948 162069 | 122 122 | 96.72 | NZ_CP038996.1 contig_9
+		Alignment: 443593 444458 | 162644 163508 | 866 865 | 98.73 | NZ_CP038996.1 contig_9
+		Alignment: 92724 94048 | 168316 169640 | 1325 1325 | 100.0 | NZ_CP038997.1 contig_9
+		Alignment: 102145 102953 | 171644 170865 | 809 780 | 95.44 | NZ_CP038997.1 contig_9
+		Alignment: 1465787 1467127 | 183649 182309 | 1341 1341 | 99.85 | NZ_CP038996.1 contig_9
+		Alignment: 955141 956208 | 184202 185269 | 1068 1068 | 99.91 | NZ_CP038996.1 contig_9
+		Alignment: 972161 973410 | 188641 187389 | 1250 1253 | 95.47 | NZ_CP038996.1 contig_9
+		Alignment: 969204 969495 | 191953 191662 | 292 292 | 98.29 | NZ_CP038996.1 contig_9
+		Unaligned bases: 143376
+
+Analyzing coverage...
+Writing SNPs into /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/PacBio/contigs_reports/minimap_output/assembly.used_snps
+
+Analysis is finished!
+Founded SNPs were written into /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/PacBio/contigs_reports/minimap_output/assembly.used_snps
+
+Results:
+	Local Misassemblies: 20
+	Misassemblies: 184
+		Relocations: 170
+		Translocations: 12
+		Inversions: 2
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 2
+	Misassembled Contig Bases: 2777988
+	Misassemblies Inter-Contig Overlap ("Extra" Aligned Bases): 0
+Unaligned Contigs: 4 + 7 part
+Half Unaligned Contigs with Misassemblies: 3
+Unaligned Bases in Fully and Partially Unaligned Contigs: 562070
+
+Ambiguously Mapped Contigs: 4
+Total Bases in Ambiguously Mapped Contigs: 284121
+"Extra" Aligned Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used (there is no "extra" aligned bases).
+
+	Covered Bases in Reference: 2478716
+	Raw Aligned Bases in Assembly: 2578802
+	Total Aligned Bases in Assembly (with "Extras"): 2578802
+
+	SNPs: 9429
+	Insertions: 1879
+	Deletions: 1659
+
