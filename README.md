@@ -13,7 +13,7 @@ The preprocessing process will be streamlined by using Trimmomatic, which is a f
 
 ### Genome assembly
 When the data is ready genome assembly will be done. Because there is data from PacBio reads, as well as illumina and Nanopore reads an extra analysis will be done to find out which of these methods is best suited for downstream analysis. In this case the NanoPore reads are already assembled, so only the PacBio and Illumina reads need to be assembled. For the Illumina assembly Spades will be used in classic config, in addition for PacBio reads Flye will be used. I do want to try a combination of both as Spades does allow this.
-The evaluation of the assembly will be done in multiple steps, or multiple times depending how you look at it. To start QUAST will be used to be able to independently evaluate the quality. As additional analysis, the alignment will be compared to the one done in the original research.
+The evaluation of the assembly will be done in multiple steps, or multiple times depending how you look at it. To start QUAST will be used to be able to independently evaluate the quality. As additional analysis, the alignment will be compared to the one done in the original research. The allignment can be found under the name ASM973400v2, and in this step the GCF will be used.
 
 ### Annotation
 The next step will be to find the genetic elements. This will be done by using Prokka to add biochemical functions to prokaryotic genomes. Furthermore, EggNOGmapper will be used to further investigate the functional predictions.
