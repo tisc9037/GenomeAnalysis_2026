@@ -11,23 +11,22 @@ module load Trimmomatic
 IN_DIR="$1"
 OUT_DIR="$2"
 
-mkdir -p "$OUT_DIR"
 
 # Loop over R1 files only
-find "$IN_DIR" -type f -name "*_1.fastq.gz" | while read R1; do
+find "$IN_DIR" -type f -name "*_1_clean.fq.gz" | while read R1; do
     # Infer R2
-    R2="${R1/_1.fastq.gz/_2.fastq.gz}"
+    R2="${R1/_1_clean.fq.gz/_2_clean.fq.gz}"
 
     # Base name without _1.fastq.gz
-    base=$(basename "$R1" _1.fastq.gz)
+    base=$(basename "$R1" _1_clean.fq.gz)
 
     # Run Trimmomatic
     trimmomatic PE -threads 1 -phred33 \
         "$R1" "$R2" \
-        "$OUT_DIR/${base}_1_paired.fastq.gz" \
-        "$OUT_DIR/${base}_1_unpaired.fastq.gz" \
-        "$OUT_DIR/${base}_2_paired.fastq.gz" \
-        "$OUT_DIR/${base}_2_unpaired.fastq.gz" \
+        "$OUT_DIR/${base}_1_paired.fq.gz" \
+        "$OUT_DIR/${base}_1_unpaired.fq.gz" \
+        "$OUT_DIR/${base}_2_paired.fq.gz" \
+        "$OUT_DIR/${base}_2_unpaired.fq.gz" \
         SLIDINGWINDOW:4:20 \
         MINLEN:36
 done
