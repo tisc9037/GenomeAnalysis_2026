@@ -24,10 +24,10 @@ cat "$PACBIO_DIR"/*.fastq.gz > "$PACBIO_COMBINED"
 spades.py -1 "$R1" -2 "$R2" \
 	--pacbio "$PACBIO_COMBINED" \
 	--trusted-contigs "$ALLIGNED_PACBIO" \
-	--isolate -o "$OUTPUT_DIR"trusted/
+	--isolate -o "$OUTPUT_DIR"/trusted/
 
 
 spades.py -1 "$R1" -2 "$R2" \
 	--pacbio "$PACBIO_COMBINED" \
 	--untrusted-contigs "$ALLIGNED_PACBIO" \
-	--isolate -o "$OUTPUT_DIR"untrusted/
+	--isolate -o "$OUTPUT_DIR"/untrusted/
