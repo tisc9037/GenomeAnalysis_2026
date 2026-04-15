@@ -1,0 +1,119 @@
+/sw/arch/eb/software/QUAST/5.3.0-gfbf-2024a/bin/quast Data/00_Assembly/Hybrid_Allign/untrusted/contigs.fasta -r Data/NCBI_data/GCF_009734005.1/GCF_009734005.1_ASM973400v2_genomic.fna -o Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.14.0-611.41.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.12.3
+  CPUs number: 96
+
+Started: 2026-04-15 13:17:30
+
+Logging to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/quast.log
+NOTICE: Maximum number of threads is set to 24 (use --threads option to set it manually)
+
+CWD: /gorilla/home/tisch/GenomeAnalysis_2026
+Main parameters: 
+  MODE: default, threads: 24, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Reference:
+  /gorilla/home/tisch/GenomeAnalysis_2026/Data/NCBI_data/GCF_009734005.1/GCF_009734005.1_ASM973400v2_genomic.fna ==> GCF_009734005.1_ASM973400v2_genomic
+
+Contigs:
+  Pre-processing...
+  Data/00_Assembly/Hybrid_Allign/untrusted/contigs.fasta ==> contigs
+
+2026-04-15 13:17:30
+Running Basic statistics processor...
+  Reference genome:
+    GCF_009734005.1_ASM973400v2_genomic.fna, length = 2919198, num fragments = 2, GC % = 37.88
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 2057033, L50 = 1, auN = 1518636.4, Total length = 3146417, GC % = 37.69, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 4x)...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 4x)...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+2026-04-15 13:17:31
+Running Contig analyzer...
+  contigs
+  Logging to files /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/contigs_report_contigs.stdout and contigs_report_contigs.stderr...
+  Aligning contigs to the reference
+  /sw/arch/eb/software/QUAST/5.3.0-gfbf-2024a/lib/python3.12/site-packages/quast_libs/minimap2/minimap2 \
+  -c -x asm10 -B5 -O4,16 --no-long-join -r 200 -N 50 -s 65 -z 200 --mask-level 0.9 \
+  --min-occ 200 -g 2500 --score-N 2 --cs -t 24 Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/quast_corrected_input/GCF_009734005.1_ASM973400v2_genomic.fna \
+  Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/quast_corrected_input/contigs.fasta \
+  > Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/minimap_output/contigs.coords_tmp \
+  2>> Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/contigs_report_contigs.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2026-04-15 13:17:32
+Running NA-NGA calculation...
+  contigs, Largest alignment = 137660, NA50 = 24553, NGA50 = 27771, LA50 = 31, LGA50 = 27
+  Drawing cumulative plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/aligned_stats/NGAx_plot.pdf
+Done.
+
+2026-04-15 13:17:32
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-15 13:17:33
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-04-15 13:17:33
+RESULTS:
+  Text versions of total report are saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/report.html
+  PDF version (tables and plots) is saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/report.pdf
+  Icarus (contig browser) is saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/icarus.html
+  Log is saved to /gorilla/home/tisch/GenomeAnalysis_2026/Analyses/1_Assembly_Eval/Ref_Gen/Hybrid_Allign/PacBio_untrusted/quast.log
+
+Finished: 2026-04-15 13:17:33
+Elapsed time: 0:00:03.658060
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
