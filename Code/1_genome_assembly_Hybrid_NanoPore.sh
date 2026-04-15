@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
-#SBATCH -c 4
-#SBATCH -t 05:30:00
+#SBATCH -c 1
+#SBATCH -t 01:00:00
 #SBATCH -J Hybrid_Assembly_Spades
 
 module load SPAdes/4.2.0-GCC-13.3.0
