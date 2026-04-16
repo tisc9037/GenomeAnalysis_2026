@@ -8,5 +8,15 @@
 module load BLAST+/2.17.0-gompi-2024a
 
 INPUT_FILE=$1
-OUTPUT_DIR=$2
+DB=$2
+OUTPUT_DIR=$3
+
+# Run BLASTN homology search
+blastn \
+    -query "$INPUT_FILE" \
+    -db "$DB" \
+    -out ""$OUTPUT_DIR"blast_results.tsv" \
+    -outfmt 6 \
+    -evalue 1e-5 \
+    -num_threads 1
 
