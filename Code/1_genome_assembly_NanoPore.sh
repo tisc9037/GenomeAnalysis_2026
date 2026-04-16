@@ -12,6 +12,7 @@ OUTPUT_DIR=$2
 
 # Run Canu
 canu \
+  -p NanoPore \
   -d "$OUTPUT_DIR" \
   genomeSize=3m \
   useGrid=false \
