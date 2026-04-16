@@ -1,4 +1,4 @@
-#!/bin/bash -l
+]#!/bin/bash -l
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 4
