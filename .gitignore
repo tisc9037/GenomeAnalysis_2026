@@ -12,3 +12,4 @@ Data/*
 *.fq.qz
 *.RData
 *.tsv
+*slurm*
