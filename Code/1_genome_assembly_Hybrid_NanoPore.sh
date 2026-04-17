@@ -2,7 +2,7 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -p pelle
 #SBATCH -c 1
-#SBATCH -t 01:00:00
+#SBATCH -t 02:30:00
 #SBATCH -J Hybrid_Assembly_Spades
 
 module load SPAdes/4.2.0-GCC-13.3.0
