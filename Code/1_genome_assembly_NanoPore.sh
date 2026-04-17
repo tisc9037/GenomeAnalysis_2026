@@ -16,6 +16,5 @@ canu \
   -d "$OUTPUT_DIR" \
   genomeSize=3.2m \
   useGrid=false \
-  corOutCoverage=200 \
-  minReadLength=1000 \
+  stopOnLowCoverage=1\
   -nanopore  "$INPUT_FILE"
