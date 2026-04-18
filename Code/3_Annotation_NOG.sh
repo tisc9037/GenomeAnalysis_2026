@@ -13,10 +13,6 @@ OUTPUT_DIR=$2
 emapper.py \
   -i $INPUT_FASTA \
   -o Efaecium_eggnog \
-  --output_dir $OUTPUT_DIR \
+  --output $OUTPUT_DIR \
   --cpu 2 \
-  --itype genome \
-  --tax_scope Enterococcus \
-  --target_orthologs all \
-  --go_evidence non-electronic \
-  --decorate_gff yes
+  --itype genome
