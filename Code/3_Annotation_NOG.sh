@@ -8,7 +8,7 @@
 module load eggnog-mapper/2.1.13-gfbf-2024a
 
 INPUT_FASTA=$1
-Eggnog_DB=$2
+Eggnog_DB=
 OUTPUT_DIR=$3
 
 emapper.py \
