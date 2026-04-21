@@ -8,11 +8,13 @@
 module load eggnog-mapper/2.1.13-gfbf-2024a
 
 INPUT_FASTA=$1
-OUTPUT_DIR=$2
+Eggnog_DB=$2
+OUTPUT_DIR=$3
 
 emapper.py \
   -i $INPUT_FASTA \
   -o Efaecium_eggnog \
   --output $OUTPUT_DIR \
+  --data_dir "$Eggnog_DB" \
   --cpu 2 \
   --itype genome
