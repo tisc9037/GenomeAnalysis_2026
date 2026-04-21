@@ -13,7 +13,7 @@ OUT_DIR=$3
 
 for BAM in "$BAM_DIR"*.bam; do
     SAMPLE=$(basename "$BAM" .bam)
-    OUT="$OUT_DIR${SAMPLE}.counts"
+    OUT="$OUT_DIR/${SAMPLE}.counts"
 
     echo "Counting: $SAMPLE"
 
@@ -21,9 +21,8 @@ for BAM in "$BAM_DIR"*.bam; do
         -f bam \
         -r pos \
         -s no \
-        -t gene \
-        -i ID \
+        -t CDS \
+        -i locus_tag \
         "$BAM" \
         "$GFF" > "$OUT"
 done
-
