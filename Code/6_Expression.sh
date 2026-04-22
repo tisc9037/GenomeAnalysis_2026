@@ -3,7 +3,7 @@
 #SBATCH -p pelle
 #SBATCH -c 4
 #SBATCH -t 04:00:00
-#SBATCH -J HTSeq_auto
+#SBATCH -J HTSeq_Prokka
 
 module load HTSeq/2.1.2-gfbf-2024a
 
@@ -13,7 +13,7 @@ OUT_DIR=$3
 
 for BAM in "$BAM_DIR"*.bam; do
     SAMPLE=$(basename "$BAM" .bam)
-    OUT="$OUT_DIR/${SAMPLE}.counts"
+    OUT="$OUT_DIR${SAMPLE}.counts"
 
     echo "Counting: $SAMPLE"
 

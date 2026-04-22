@@ -1,1 +1,39 @@
 dknskd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Results
+why is used PacBio for the rest.
+
+Why PacBio_Canu is the best choice
+Coverage/completeness: Highest genome fraction (~85%), essentially tied with PacBio_Flye but clearly better than both Nanopore assemblies.
+
+Accuracy: By far the lowest mismatch rate (20.7 vs 300–400+ per 100 kbp in others).
+
+Structural correctness: 0 misassemblies vs 72–184 in the others—this is huge for downstream analyses like variant calling, gene context, synteny, etc.
+
+Contiguity: Very strong NA50 (153 kb) with only 9 contigs and a largest contig of ~2.76 Mb.
+
+PacBio_Flye has similar completeness but is riddled with misassemblies and much higher mismatch rate. Both Nanopore assemblies are clearly inferior on completeness, contiguity, and/or error rates.
+
+Practical recommendation
+Use PacBio_Canu as your primary assembly for downstream analysis.
+
+If you have short reads, consider polishing it (e.g., with Pilon, Racon, etc.), but even as is, it’s the best foundation by a wide margin.
+
+If you tell me what “downstream” means for you (variant calling, annotation, comparative genomics), I can suggest specific polishing/cleanup steps tailored to that.
