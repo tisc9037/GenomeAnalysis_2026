@@ -3,7 +3,7 @@
 #SBATCH -p pelle
 #SBATCH -c 4
 #SBATCH -t 04:00:00
-#SBATCH -J HTSeq_Prokka
+#SBATCH -J HTSeq
 
 module load HTSeq/2.1.2-gfbf-2024a
 

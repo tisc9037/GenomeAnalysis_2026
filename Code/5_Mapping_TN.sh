@@ -7,7 +7,7 @@
 
 module load BWA/0.7.19-GCCcore-13.3.0 SAMtools/1.22.1-GCC-13.3.0
 
-REF=$1
+REF=$1 #fasta
 READ_DIR=$2
 OUT_DIR=$3
 
