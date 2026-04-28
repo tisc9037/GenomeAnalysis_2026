@@ -1,10 +1,14 @@
-# Questions 4
+# Data Quality
+What
+results
 
-## Reads quality control 
+## Questions 4
+
+### Reads quality control 
 1. How is the quality of your data?
 2.  What can generate the “fails” in FastQC that you observe in your data? Can these cause any problems during subsequent analyses?
 
-## Reads preprocessing 
+### Reads preprocessing 
 4. How many reads have been discarded after trimming? 
 5. How can this affect your future analyses and results? 
 6. How is the quality of your data after trimming? 
