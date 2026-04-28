@@ -25,16 +25,16 @@ If you tell me what “downstream” means for you (variant calling, annotation,
 
 ## Questions 4
 ### Genome and Metagenome Assembly 
-7. What information can you get from the plots and reports given by the assembler (if you get any)? 
-8. What intermediate steps generate informative output about the assembly?
-9. How many contigs do you expect? How many do you obtain? 
-10. Do you expect the same result between different assemblers, for the same data? If you tried different assemblers, what differences do you see in the result and why do you think that is?
-11. What are the k-mers? What are the problems and benefits of choosing a small or a large k-mer? 
-12. Some assemblers can include a read-correction step before doing the assembly. What is this step doing? 
+1. What information can you get from the plots and reports given by the assembler (if you get any)? 
+2. What intermediate steps generate informative output about the assembly?
+3. How many contigs do you expect? How many do you obtain? 
+4. Do you expect the same result between different assemblers, for the same data? If you tried different assemblers, what differences do you see in the result and why do you think that is?
+5. What are the k-mers? What are the problems and benefits of choosing a small or a large k-mer? 
+6. Some assemblers can include a read-correction step before doing the assembly. What is this step doing? 
 
 ### Assembly evaluation 
-13.  How does your assembly compare with the reference assembly? What could have caused the differences?
-14.  Do you think your assembly is better/worse than the public one? 
+1.  How does your assembly compare with the reference assembly? What could have caused the differences?
+2.  Do you think your assembly is better/worse than the public one? 
 
 
 ## Additional Analysis
