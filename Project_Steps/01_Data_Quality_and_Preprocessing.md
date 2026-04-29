@@ -24,3 +24,5 @@ These can just be explained by the fact that FastQC is not ment for PacBio CLR r
 8. What quality threshold did you choose for the leading/trailing/slidingwindow parameters, and why?
 
 This part was not really a thing for me as i descided that the Illumina was good enouigh and Trimmomatic is not ment for PacBio data.
+Canu also does this itself:
+<insert example Canu>
