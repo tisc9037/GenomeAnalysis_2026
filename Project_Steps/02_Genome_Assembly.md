@@ -24,19 +24,6 @@ If you tell me what “downstream” means for you (variant calling, annotation,
 
 
 ## Questions 4
-### Genome and Metagenome Assembly 
-1. What information can you get from the plots and reports given by the assembler (if you get any)? 
-2. What intermediate steps generate informative output about the assembly?
-3. How many contigs do you expect? How many do you obtain? 
-4. Do you expect the same result between different assemblers, for the same data? If you tried different assemblers, what differences do you see in the result and why do you think that is?
-5. What are the k-mers? What are the problems and benefits of choosing a small or a large k-mer? 
-6. Some assemblers can include a read-correction step before doing the assembly. What is this step doing? 
-
-### Assembly evaluation 
-1.  How does your assembly compare with the reference assembly? What could have caused the differences?
-2.  Do you think your assembly is better/worse than the public one? 
-
-### answers 4
 The assembly reports provide several key metrics that are useful for evaluating assembly quality, including the number of contigs, total assembly length, N50, genome fraction, misassemblies, and base-level errors. In this case, the Canu PacBio assembly is considerably more contiguous than the NanoPore assembly, with only 9 contigs and a much higher N50, whereas the NanoPore assembly contains 285 contigs and is therefore substantially more fragmented.
 
 A number of intermediate steps contribute to the final quality of a genome assembly. One of the most important is read correction, in which sequencing errors are reduced before assembly begins. This is followed by overlap detection, graph construction, repeat resolution, and often polishing. These steps are especially important for long-read data, since PacBio and Nanopore reads typically contain higher error rates than Illumina reads.
@@ -51,12 +38,6 @@ When compared with the reference assembly, both of the student assemblies show d
 
 
 ## Additional Analysis
-### Genome assembly with Nanopore and Illumina reads
-1.	Which assembly is more suitable for downstream analyses? Why?
-2.	What is the size of the largest contig of each assembly?
-3.	Which assembly do you think is more accurate?
-4.	Compare total assembly length to known/expected genome size. 
-
 Assemblies generated from Illumina, Nanopore, and hybrid (Illumina + Nanopore) data were evaluated using QUAST. The Illumina assembly showed high completeness (~81.6% genome fraction), whereas the Nanopore assembly was highly incomplete (~6.8%), making it unsuitable for downstream analyses. The hybrid assembly improved upon both, combining high completeness with better contiguity.
 
 Contiguity metrics reflected this trend: the Nanopore assembly had the smallest largest contig (~23 kb), Illumina was higher (~114 kb), and the hybrid assembly produced the most continuous assembly overall. This demonstrates the advantage of integrating long reads to span repeats while maintaining short-read accuracy.
