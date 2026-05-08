@@ -1,28 +1,21 @@
 # Data Quality
 ## Goal
-rRaw reads should always be assessing on their quality before analyses. Trim or remove low‑quality regions and adapter sequences if needed, and then perform a second quality check to ensure all issues are resolved before continuing with downstream analyses.
+Raw sequencing reads should always be assessed for quality before downstream analysis. If necessary, low-quality regions and adapter sequences should be trimmed or removed. A second quality control step should then be performed to confirm that all issues have been resolved before proceeding.
 
 ## Results
+<insert example FastQC PacBio>
+<insert example FastQC Illumina>
 
-<insert example fastqc PacBio>
-<insert example fastqc Illumina>
+### Read Quality Control
+The Illumina reads are of high quality and look very suitable for downstream analysis. The FastQC report shows that all sequences are retained, the read length is consistent at 90 bp, and no reads were flagged as poor quality, which is a good sign for a cleaned short-read dataset.
 
-### Reads quality control 
-1. How is the quality of your data?
+The PacBio reads show the quality pattern expected for CLR data. Long-read data typically has a more variable quality profile than Illumina, and FastQC often reports several warnings or fails because it was mainly designed with short-read data in mind rather than PacBio subreads.
 
-Illumina: Great
-PacBio: as expected for CLR reads from this time
+In other words, the Illumina data appears clean and reliable, while the PacBio data is not necessarily “bad” just because FastQC flags it. For PacBio, those warnings are often a consequence of the sequencing technology itself rather than evidence of a serious problem.
 
-3. What can generate the “fails” in FastQC that you observe in your data? Can these cause any problems during subsequent analyses?
+The observed FastQC “fails” can largely be explained by the fact that FastQC is not designed for PacBio CLR data. These reads have different characteristics compared to short-read data, which leads to misleading warnings. However, these flags do not necessarily indicate issues that will negatively impact downstream analyses.
 
-These can just be explained by the fact that FastQC is not ment for PacBio CLR reads. but this does not mean that there are problems for the long term analyses.
-
-### Reads preprocessing 
-4. How many reads have been discarded after trimming?
-6. How can this affect your future analyses and results? 
-7. How is the quality of your data after trimming? 
-8. What quality threshold did you choose for the leading/trailing/slidingwindow parameters, and why?
-
-This part was not really a thing for me as i descided that the Illumina was good enouigh and Trimmomatic is not ment for PacBio data.
-Canu also does this itself:
+### Read Preprocessing
+Trimming was not performed in this case. The Illumina data was already of sufficient quality, and Trimmomatic is not suitable for PacBio data. Additionally, Canu includes its own read correction and preprocessing steps for long-read data.
 <insert example Canu>
+Skipping trimming is unlikely to negatively affect downstream analyses, given the high quality of the Illumina reads and the internal correction performed by Canu.
