@@ -1,15 +1,36 @@
 # Genome Assembly
 ## Goal
-The goal of genome assembly is to reconstruct the most complete, accurate, and contiguous representation of the target genome from sequencing reads. The best assembly balances high completeness, low error rates, and strong contiguity, so it can serve as a reliable foundation for downstream analyses such as annotation, variant calling, and comparative genomics.
+The aim of genome assembly is to reconstruct an accurate and contiguous representation of the genome from sequencing reads and to evaluate how well this reconstruction reflects the true sequence. In practice, this involves assessing how much of the genome is recovered, how continuous the assembly is, and whether structural or base-level errors are present. For bacterial genomes, a strong assembly should approach a full chromosome and support downstream analyses such as annotation and comparative genomics.
 
 ## Results
-Among the assemblies evaluated, PacBio_Canu is the strongest overall choice. It has the highest genome fraction at 85.0% and produces a single dominant contig of about 2.58 Mb, which points to excellent long-range reconstruction. The reported structural misassemblies are worth noting, but the assembly still shows the best combination of completeness and contiguity compared with the other options.
+### Assembly Contiguity and Completeness
+The PacBio assembly generated with Canu shows high contiguity and good overall completeness. The QUAST results indicate a genome fraction of approximately 85%, meaning that most of the reference genome is recovered. The assembly is dominated by a single contig of about 2.58 Mb, and the LG50 of 1 suggests that this contig represents a near chromosome-length reconstruction.
 
-The Illumina-only assembly reaches 81.6% genome fraction, but it is highly fragmented and therefore less useful as a primary reference. The Nanopore-only assembly performs much more poorly, with only 6.8% genome fraction and very limited contig structure. The hybrid Illumina+Nanopore assembly improves both completeness and contiguity, but it still shows structural inconsistency and is less coherent than PacBio_Canu overall.
+The duplication ratio is close to 1, indicating that repeats are not substantially overrepresented or collapsed. However, 183 misassemblies are reported, reflecting structural inconsistencies relative to the reference. These may arise from repeat regions, alignment artefacts, or real biological variation, and they illustrate that high contiguity does not necessarily imply perfect structural accuracy.
 
-For a bacterial genome, where a near-complete chromosome is usually expected, PacBio_Canu gives the most convincing reconstruction. Its long, accurate reads give Canu a clear advantage in resolving larger genomic segments and producing a more usable assembly for downstream work.
+### Assembly Process and Diagnostics
+Canu provides several intermediate outputs that help interpret the final assembly. The read correction step reduces sequencing errors and gives an indication of the initial data quality. Overlap detection reflects genome coverage and highlights regions of repeat complexity. Trimming and unitig construction remove low-quality sequences and simplify the assembly graph.
+
+Together, these steps explain how the final contigs are formed and help identify whether issues such as fragmentation or misassemblies are driven by data quality, uneven coverage, or graph complexity.
+
+### Expected Structure
+For bacterial genomes, one typically expects a single chromosome-length contig, possibly accompanied by plasmids. The PacBio assembly largely follows this expectation, as most of the genome appears to be contained within one dominant contig, with any remaining contigs likely being short.
+
+This contrasts with short-read assemblies, which are usually more fragmented due to unresolved repeats and limited read length.
+
+### Assembler Differences
+Different assemblers produce different results because they rely on distinct algorithms. Canu uses an overlap–layout–consensus approach with read correction, which often produces very long contigs. Flye, in contrast, uses a repeat-graph strategy and tends to be more conservative in ambiguous regions.
+
+These differences affect contiguity, repeat resolution, and the number of structural inconsistencies observed in the final assembly.
+
+### Role of k-mers and Error Correction
+K-mers are short sequence fragments used to construct assembly graphs, estimate coverage, and detect errors. Smaller k-mers improve connectivity but can collapse repeats, while larger k-mers increase specificity but require higher-quality data.
+
+Read correction helps balance these trade-offs by reducing noise, improving base accuracy, and simplifying the assembly graph, which in turn improves both contiguity and reliability.
 
 ## Additional Analysis
-The QUAST results support the same conclusion. The Illumina assembly has reasonable base accuracy but lacks long-range continuity, while the Nanopore assembly is too incomplete to be a strong candidate. The hybrid assembly sits between those extremes, combining some advantages of both technologies, but it remains structurally noisier than the PacBio-based assembly.
+Comparing the different assemblies reveals clear differences in performance. The PacBio_Canu assembly provides the most continuous reconstruction, with a chromosome-sized contig of approximately 2.58 Mb and high completeness, making it well suited for downstream analyses.
 
-In practical terms, the main takeaway is that PacBio_Canu is the most reliable foundation for later analyses. If short reads are available, polishing with a tool such as Pilon or Racon could further improve base-level accuracy, but even without extra polishing, PacBio_Canu remains the best assembly in this set.
+The hybrid Illumina+NanoPore assembly achieves similar completeness (about 84.9%) but is more fragmented, with a largest contig of around 138 kb and the same number of misassemblies. The Illumina-only assembly is even more fragmented, although it likely has higher base-level accuracy due to the low error rate of short reads.
+
+In contrast, the NanoPore-only assembly performs poorly, recovering only a small fraction of the genome (6.8%) and producing very short contigs, which limits its usefulness as a primary assembly.
