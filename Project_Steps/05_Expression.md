@@ -1,6 +1,6 @@
 # Expression
 ## Goal
-The goal of this analysis is to examine the distribution of read counts per gene and determine how many genes are expressed in the BH (control_ and Serum samples. This helps identify whether most genes receive enough reads to be considered expressed and gives a sense of the overall expression profile in each condition.
+The goal of this analysis is to examine the distribution of read counts per gene and determine how many genes are expressed in the BH (control)and Serum samples. This helps identify whether most genes receive enough reads to be considered expressed and gives a sense of the overall expression profile in each condition.
 
 ## Results
 The count distributions for both BH and Serum are strongly right-skewed, with many genes having low counts and a smaller set of genes showing much higher expression . In both samples, the majority of genes appear to have non-zero counts, so most genes are expressed to some extent, although many are only weakly expressed .
