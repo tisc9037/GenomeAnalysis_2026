@@ -1,16 +1,23 @@
 # Expression Analyses
+## Goal
+The aim of the expression analysis is to identify genes that are differentially expressed between conditions, evaluate how samples cluster, and compare the resulting transcriptional patterns with those reported in Zhang et al., 2017. A secondary goal is to relate RNA‑seq expression changes to Tn‑seq fitness determinants to identify genes that are likely important for E. faecium growth in human serum.
 
+## Results
+### RNA‑seq expression
+Our RNA‑seq analysis shows only modest and relatively few reproducible transcriptional changes between conditions. Several factors reduce sensitivity compared with the published study: many genes in the DESeq2 output have very low baseMean values or zero counts, which produces NA fold‑change estimates and unstable dispersion estimates; sequencing depth and number of biological replicates here are lower than in the publication; and preprocessing choices (trimming, mapping, read counting, and filtering) differ. Together these issues reduce statistical power and explain why few genes remain significant after multiple‑testing correction.
 
-## Questions 4
-### Expression analyses  
-1.  If your expression results differ from those in the published article, why could it be? 
-2.  How do the different samples and replicates cluster together? 
-3.  How did you sort your differential expression results? Why?
-4.  Do you need a normalization step? What would you normalize against? Does DESeq do it?
-5. What would you do to increase the statistical power of your expression analysis?
+Replicates cluster primarily by condition, indicating that the major biological signal is present, but the separation is weak. This pattern—moderate condition-driven clustering with small log2 fold‑changes and few significant hits—suggests that biological replicates are similar but overall variance and low counts limit detection of subtle effects. A PCA would likely show BH versus serum separating modestly, with serum and heat‑inactivated serum clustering closer together.
 
-## Aditional analyses
-### Identify essential genes for growth in human serum based on the Tn-Seq data analysis.
-1.	How did the authors get the data from the Tn-Seq analysis? What type of data is it?
-2.	What is the goal of the Tn-Seq analysis?
-3.	Which genes seem to be important for E. faecium to grow in human serum? Attach a plot that supports your conclusion, analyze it and explain briefly your workflow.
+Differential expression results were ranked by adjusted p‑value (padj) and then by absolute log2 fold change. Prioritizing padj controls the false discovery rate and emphasizes statistically robust hits; applying |log2FC| next highlights genes with larger, biologically meaningful effects. Because many Tn‑seq genes have sparse data, DESeq2 returned NA padj values for many genes, so for Tn‑seq prioritization we used p‑value and negative log2 fold change (depletion in serum) to highlight candidate essential genes.
+
+Normalization is required for RNA‑seq; DESeq2’s median-of-ratios (size‑factor) method was used and removes the need for external scaling. This corrects for library size and compositional biases without relying on housekeeping genes. For Tn‑seq, however, standard RNA‑seq normalization is suboptimal because insertion counts violate the same assumptions; Tn‑seq is better normalized by insertion density, library saturation, or windowed read depth (the windowed RPKM approach used in the published method is an example).
+
+To increase statistical power I recommend increasing biological replication and sequencing depth, removing very low‑count genes before testing (e.g., baseMean < 5), improving RNA quality to reduce technical noise, and—where possible—using paired designs to control sample heterogeneity. For Tn‑seq specifically, use methods designed for insertion data (windowed RPKM or tools such as TRANSIT/ESSENTIALS) rather than gene‑level DESeq2 when counts are sparse.
+
+### Tn‑Seq essentiality for growth in human serum
+The Tn‑seq experiments were performed by growing a high‑density transposon insertion library in BH medium (control) and human serum (selective condition), sequencing insertion junctions, and counting insertions across the genome. These counts measure mutant abundance (fitness), not transcript levels. The published analysis and the RPKM windowed matrix summarize insertion density in genomic windows; gene‑level counts (DESeq2 tables) are an alternative aggregation.
+
+The Tn‑seq objective is to identify conditionally essential genes: loci for which disruption reduces survival in serum. Candidate essential genes are those with strongly depleted insertions in serum (lower RPKM or negative log2 fold change relative to BH). In our DESeq2‑based Tn‑seq results, the most convincing depleted candidates were AENJPLPP_00059 and AENJPLPP_00562 (negative log2FC and padj near or below 0.1). These loci therefore merit follow‑up as putative serum‑fitness genes. The windowed RPKM data further support depletion of genes involved in DNA repair, stress responses, and central metabolism—pathways commonly required for survival in hostile environments such as human serum.
+
+### Concluding
+RNA‑seq indicates modest transcriptional remodeling between BH and serum, but low counts and limited replication reduce confidence in many DE calls; DESeq2’s built‑in normalization is appropriate for RNA‑seq, while Tn‑seq requires insertion‑aware normalization. Tn‑seq points to a small set of candidate serum‑essential genes (notably AENJPLPP_00059 and AENJPLPP_00562) that should be validated experimentally and, if possible, re‑analyzed using windowed or Tn‑seq–specific tools with increased depth or replication.
