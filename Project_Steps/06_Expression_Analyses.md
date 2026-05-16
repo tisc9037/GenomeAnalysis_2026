@@ -3,8 +3,8 @@
 The aim of the expression analysis is to identify genes that are differentially expressed between conditions, evaluate how samples cluster, and compare the resulting transcriptional patterns with those reported in Zhang et al., 2017. A secondary goal is to relate RNA‑seq expression changes to Tn‑seq fitness determinants to identify genes that are likely important for E. faecium growth in human serum.
 
 ## Results
-### RNA‑seq summary
-The RNA‑seq data show only modest transcriptional changes between conditions. Several practical issues reduce sensitivity compared with the published work: many genes have very low or zero counts in the DESeq2 tables, which prevents stable dispersion and fold‑change estimates; sequencing depth and replicate numbers are lower here than in the publication; and preprocessing choices (trimming, mapping, counting, filtering) differ. Taken together, these factors explain why relatively few genes survive multiple‑testing correction.
+### RNA‑seq
+The RNA‑seq data shows modest transcriptional changes between conditions. Several practical issues reduce sensitivity compared with the published work: many genes have very low or zero counts in the DESeq2 tables, which prevents stable dispersion and fold‑change estimates; sequencing depth and replicate numbers are lower here than in the publication; and preprocessing choices (trimming, mapping, counting, filtering) differ. Taken together, these factors explain why relatively few genes survive multiple‑testing correction.
 
 Replicates tend to cluster by condition, which indicates a real biological signal, but separation is not strong. Log2 fold‑changes are generally small and most genes lie near zero, so although replicates are similar to one another, overall variance and low counts limit the ability to call many robust DE genes. A PCA would probably show a modest BH versus serum separation, with serum and heat‑inactivated serum closer together.
 
