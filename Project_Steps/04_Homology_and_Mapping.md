@@ -18,6 +18,8 @@ The goal of this analysis is to evaluate the mapping efficiency and distribution
       </table>
     </td>
     <td style="vertical-align: top; padding-left: 20px; max-width: 350px;">
+      Here displayed is a Blast of the PacBio Canu assembly constructed during this 
+      assignment to the reference genome found on NCBI.
       The PacBio CANU assembly and the reference genome are highly similar overall, 
       but they contain multiple structural rearrangements, consisting of inversions, 
       translocations, and possibly relocations. These rearrangements should not 
