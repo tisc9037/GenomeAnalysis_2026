@@ -1,4 +1,3 @@
-<img width="1278" height="621" alt="image" src="https://github.com/user-attachments/assets/7b4c6334-3510-4e57-b664-96c98c030b21" /># Read counting
 ## Goal
 The goal of this analysis is to examine the distribution of read counts per gene and determine how many genes are expressed in the BH (control) and Serum samples. This helps identify whether most genes receive enough reads to be considered expressed and gives a sense of the overall expression profile in each condition.
 
