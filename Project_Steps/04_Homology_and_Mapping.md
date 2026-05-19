@@ -5,22 +5,26 @@ The goal of this analysis is to evaluate the mapping efficiency and distribution
 ## Results
 ### Homology
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <table>
-    <tr>
-      <th>ACT PacBio Allignment vs NCBI</th>
-    </tr>
-    <tr>
-      <td><img src="../Plots/ACT.png" width="350"></td>
-    </tr>
-  </table>
-  
-  <div style="max-width: 350px;">
-    <p>
-      The PacBio CANU assembly and the reference genome are highly similar overall, but they contain multiple structural rearrangements. Consisting of inversions, translocations, and possibly relocations.       This should not affect later downstream analysis, as the location on the genome is not necesery for the later interpretations.
-    </p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <table>
+        <tr>
+          <th>ACT PacBio Alignment vs NCBI</th>
+        </tr>
+        <tr>
+          <td><img src="../Plots/ACT.png" width="350"></td>
+        </tr>
+      </table>
+    </td>
+    <td style="vertical-align: top; padding-left: 20px; max-width: 350px;">
+      The PacBio CANU assembly and the reference genome are highly similar overall, 
+      but they contain multiple structural rearrangements, consisting of inversions, 
+      translocations, and possibly relocations. This should not affect downstream 
+      analysis, as the exact genomic location is not necessary for the later interpretations.
+    </td>
+  </tr>
+</table>
 
 
 ### Mapping
