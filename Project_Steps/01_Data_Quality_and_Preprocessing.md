@@ -9,8 +9,8 @@ Raw sequencing reads should always be assessed for quality before downstream ana
     <th>PacBio FastQC</th>
   </tr>
   <tr>
-    <td><img src="../Plots/Illumina_FastQC.png" width="350"></td>
-    <td><img src="../Plots/PacBio_FastQC.png" width="350"></td>
+    <td><img src="./Plots/Illumina_FastQC.png" width="350"></td>
+    <td><img src="./Plots/PacBio_FastQC.png" width="350"></td>
   </tr>
 </table>
 
