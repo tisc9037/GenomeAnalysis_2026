@@ -4,9 +4,29 @@ The aim of genome assembly is to reconstruct an accurate and contiguous represen
 
 ## Results
 ### Assembly Contiguity and Completeness
-The PacBio assembly generated with Canu shows high contiguity and good overall completeness. The QUAST results indicate a genome fraction of approximately 85%, meaning that most of the reference genome is recovered. The assembly is dominated by a single contig of about 2.58 Mb, and the LG50 of 1 suggests that this contig represents a near chromosome-length reconstruction.
-
-The duplication ratio is close to 1, indicating that repeats are not substantially overrepresented or collapsed. However, 183 misassemblies are reported, reflecting structural inconsistencies relative to the reference. These may arise from repeat regions, alignment artefacts, or real biological variation, and they illustrate that high contiguity does not necessarily imply perfect structural accuracy.
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <table>
+        <tr>
+          <th>ACT Quast of PacBio Canu</th>
+        </tr>
+        <tr>
+          <td><img src="../Plots/Quast_PacBio_Canu.png" width="350"></td>
+        </tr>
+      </table>
+    </td>
+    <td style="vertical-align: top; padding-left: 20px; max-width: 350px;">
+      The PacBio assembly generated with Canu shows high contiguity and good overall completeness. 
+      The QUAST results indicate a genome fraction of approximately 85%, meaning that most of the reference genome is recovered. 
+      The assembly is dominated by a single contig of about 2.58 Mb, and the LG50 of 1 suggests that this contig represents a near chromosome-length reconstruction.
+      The duplication ratio is close to 1, indicating that repeats are not substantially overrepresented or collapsed. 
+      However, 183 misassemblies are reported, reflecting structural inconsistencies relative to the reference. 
+      These may arise from repeat regions, alignment artefacts, or real biological variation, 
+      and they illustrate that high contiguity does not necessarily imply perfect structural accuracy.
+    </td>
+  </tr>
+</table>
 
 ### Assembly Process and Diagnostics
 Canu provides several intermediate outputs that help interpret the final assembly. The read correction step reduces sequencing errors and gives an indication of the initial data quality. Overlap detection reflects genome coverage and highlights regions of repeat complexity. Trimming and unitig construction remove low-quality sequences and simplify the assembly graph.
@@ -34,3 +54,26 @@ Comparing the different assemblies reveals clear differences in performance. The
 The hybrid Illumina+NanoPore assembly achieves similar completeness (about 84.9%) but is more fragmented, with a largest contig of around 138 kb and the same number of misassemblies. The Illumina-only assembly is even more fragmented, although it likely has higher base-level accuracy due to the low error rate of short reads.
 
 In contrast, the NanoPore-only assembly performs poorly, recovering only a small fraction of the genome (6.8%) and producing very short contigs, which limits its usefulness as a primary assembly.
+
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: top;">
+      <strong>Plot 1 Title</strong><br>
+      <img src="../Plots/plot1.png" width="350">
+    </td>
+    <td style="text-align: center; vertical-align: top;">
+      <strong>Plot 2 Title</strong><br>
+      <img src="../Plots/plot2.png" width="350">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: top;">
+      <strong>Plot 3 Title</strong><br>
+      <img src="../Plots/plot3.png" width="350">
+    </td>
+    <td style="text-align: center; vertical-align: top;">
+      <strong>Plot 4 Title</strong><br>
+      <img src="../Plots/plot4.png" width="350">
+    </td>
+  </tr>
+</table>
