@@ -4,10 +4,6 @@ The goal of this analysis is to examine the distribution of read counts per gene
 ## Results
 <table>
   <tr>
-    <th>Gen expression in control</th>
-    <th>Gen expression in Serum</th>
-  </tr>
-  <tr>
     <td><img src="../Plots/Gen_expr_BH.png" width="350"></td>
     <td><img src="../Plots/Gen_expr_Serum.png" width="350"></td>
   </tr>
