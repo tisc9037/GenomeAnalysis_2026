@@ -4,14 +4,24 @@ The goal of this analysis is to evaluate the mapping efficiency and distribution
 
 ## Results
 ### Homology
-<table>
-  <tr>
-    <th>ACT PacBio Allignment vs NCBI</th>
-  </tr>
-  <tr>
-    <td><img src="../Plots/ACT.png" width="350"></td>
-  </tr>
-</table>
+
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <table>
+    <tr>
+      <th>ACT PacBio Allignment vs NCBI</th>
+    </tr>
+    <tr>
+      <td><img src="../Plots/ACT.png" width="350"></td>
+    </tr>
+  </table>
+  
+  <div style="max-width: 350px;">
+    <p>
+      The PacBio CANU assembly and the reference genome are highly similar overall, but they contain multiple structural rearrangements. Consisting of inversions, translocations, and possibly relocations.       This should not affect later downstream analysis, as the location on the genome is not necesery for the later interpretations.
+    </p>
+  </div>
+</div>
+
 
 ### Mapping
 The mapping rate is fairly high for the BH samples, with approximately 81–84% of reads mapping back to the contigs. In contrast, the Serum samples show significantly lower mapping rates, ranging from 48–62%. This suggests that the BH dataset aligns much more effectively with the assembly than the Serum dataset. The lower mapping efficiency in the Serum samples may be due to higher biological diversity, the presence of non-target DNA, or greater structural divergence between those reads and the reference contigs.
