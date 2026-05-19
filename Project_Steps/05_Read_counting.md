@@ -25,7 +25,7 @@ The counting and expression analyses were done with pre trimmed data. But as tri
     <th>FastQC Trimmed</th>
   </tr>
   <tr>
-    <td><img src="../Plots/FastQC_RNA_Raw.png" width="350"></td>
-    <td><img src="../Plots/FastQC_RNA_Trimmed.png" width="350"></td>
+    <td><img src="../Plots/FastQC_RNA_raw.png" width="350"></td>
+    <td><img src="../Plots/FastQC_RNA_trimmed.png" width="350"></td>
   </tr>
 </table>
