@@ -3,8 +3,16 @@
 Raw sequencing reads should always be assessed for quality before downstream analysis. If necessary, low-quality regions and adapter sequences should be trimmed or removed. A second quality control step should then be performed to confirm that all issues have been resolved before proceeding.
 
 ## Results
-![Illumina FastQC](../Plots/FastQC_Illumina.png)
-![PacBio FastQC](../Plots/FastQC_PacBio.png)
+<table>
+  <tr>
+    <th>Illumina FastQC</th>
+    <th>PacBio FastQC</th>
+  </tr>
+  <tr>
+    <td><img src="../Plots/Illumina_FastQC.png" width="350"></td>
+    <td><img src="../Plots/PacBio_FastQC.png" width="350"></td>
+  </tr>
+</table>
 
 ### Read Quality Control
 The Illumina reads are of high quality and look very suitable for downstream analysis. The FastQC report shows that all sequences are retained, the read length is consistent at 90 bp, and no reads were flagged as poor quality, which is a good sign for a cleaned short-read dataset.
