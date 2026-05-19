@@ -9,7 +9,7 @@ The aim of genome assembly is to reconstruct an accurate and contiguous represen
     <td style="vertical-align: top;">
       <table>
         <tr>
-          <th>ACT Quast of PacBio Canu</th>
+          <th>Quast of PacBio Canu</th>
         </tr>
         <tr>
           <td><img src="../Plots/Quast_PacBio_Canu.png" width="350"></td>
@@ -58,22 +58,22 @@ In contrast, the NanoPore-only assembly performs poorly, recovering only a small
 <table>
   <tr>
     <td style="text-align: center; vertical-align: top;">
-      <strong>Plot 1 Title</strong><br>
-      <img src="../Plots/plot1.png" width="350">
+      <strong>Quast Illumina</strong><br>
+      <img src="../Plots/Quast_Illumina.png" width="350">
     </td>
     <td style="text-align: center; vertical-align: top;">
-      <strong>Plot 2 Title</strong><br>
-      <img src="../Plots/plot2.png" width="350">
+      <strong>Quast NanoPore</strong><br>
+      <img src="../Plots/Quast_NanoPore.png" width="350">
     </td>
   </tr>
   <tr>
     <td style="text-align: center; vertical-align: top;">
-      <strong>Plot 3 Title</strong><br>
-      <img src="../Plots/plot3.png" width="350">
+      <strong>Quast Illumina NanoPore Hybrid</strong><br>
+      <img src="../Plots/Quast_Hybrid_Illumina_NanoPore.png" width="350">
     </td>
     <td style="text-align: center; vertical-align: top;">
-      <strong>Plot 4 Title</strong><br>
-      <img src="../Plots/plot4.png" width="350">
+      <strong>Quast PacBio</strong><br>
+      <img src="../Plots/Quast_PacBio_Canu.png" width="350">
     </td>
   </tr>
 </table>
