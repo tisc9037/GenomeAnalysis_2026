@@ -20,8 +20,9 @@ The goal of this analysis is to evaluate the mapping efficiency and distribution
     <td style="vertical-align: top; padding-left: 20px; max-width: 350px;">
       The PacBio CANU assembly and the reference genome are highly similar overall, 
       but they contain multiple structural rearrangements, consisting of inversions, 
-      translocations, and possibly relocations. This should not affect downstream 
-      analysis, as the exact genomic location is not necessary for the later interpretations.
+      translocations, and possibly relocations. These rearrangements should not 
+      affect RNA‑seq or Tn‑seq downstream analysis, as both analyses rely on local 
+      read mapping rather than global genome structure.
     </td>
   </tr>
 </table>
