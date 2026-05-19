@@ -14,3 +14,18 @@ The count distributions for both BH and Serum are strongly right-skewed, with ma
 A practical threshold for considering a gene expressed is usually at least a small number of mapped reads, often around 10 counts or more, depending on the downstream analysis. In these histograms, genes below that level make up the low-expression tail, while genes above it are more likely to represent robust expression .
 
 The BH sample shows a slightly broader and more strongly populated high-count region, suggesting that more genes are expressed at moderate to high levels compared with the Serum sample . The Serum distribution is similar overall, but it appears somewhat more shifted toward lower counts and has a longer low-expression tail .
+
+### Trimming
+The counting and expression analyses were done with pre trimmed data. But as trimming some data is mandatory this was also performed. 
+
+
+<table>
+  <tr>
+    <th>FastQC Raw</th>
+    <th>FastQC Trimmed</th>
+  </tr>
+  <tr>
+    <td><img src="../Plots/FastQC_RNA_Raw.png" width="350"></td>
+    <td><img src="../Plots/FastQC_RNA_Trimmed.png" width="350"></td>
+  </tr>
+</table>
