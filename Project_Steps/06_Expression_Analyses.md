@@ -6,6 +6,7 @@ The aim of the expression analysis is to identify genes that are differentially 
 The RNA‑seq dataset shows **modest transcriptional changes** between conditions. Compared with the published study, several technical and biological factors reduce sensitivity: many genes have very low or zero counts in the DESeq2 tables, which prevents stable dispersion and fold‑change estimation; sequencing depth and replicate numbers are lower than in the original work; and preprocessing choices (trimming, mapping, counting, filtering) differ. Together, these factors explain why relatively few genes survive multiple‑testing correction and why the overall transcriptional response appears weaker than the ~28% differential expression reported by Zhang et al.
 
 Replicates cluster primarily by condition, indicating a real biological signal, but the separation is not strong. Log2 fold‑changes are generally small and most genes lie near zero, so although replicates are internally consistent, low counts and limited dynamic range restrict the ability to call robust DE genes. A PCA would likely show a modest separation between BH and serum, with serum and heat‑inactivated serum clustering more closely together.
+
 </table>
   <tr>
     <td style="text-align: center; vertical-align: top;">
@@ -16,6 +17,7 @@ Replicates cluster primarily by condition, indicating a real biological signal, 
     </td>
   </tr>
 </table>
+
 Differential expression results were ranked by adjusted p‑value first and then by absolute log2 fold change. Prioritizing adjusted p‑value controls the false discovery rate, while ranking by |log2FC| highlights genes with larger, biologically meaningful changes. For the sparse Tn‑seq dataset, many padj values are NA, so ranking relied on p‑value and negative log2 fold change (depletion in serum) to identify candidate essential genes.
 
 Normalization is required for RNA‑seq. DESeq2’s median‑of‑ratios size‑factor method was used and is appropriate here—no additional scaling is needed. For Tn‑seq, however, RNA‑seq‑style normalization is not ideal because insertion counts violate assumptions of gene‑length independence and uniform coverage. Tn‑seq is better normalized by insertion density, library saturation, or windowed read depth (as in the 25‑nt windowed RPKM approach used in the published study).
