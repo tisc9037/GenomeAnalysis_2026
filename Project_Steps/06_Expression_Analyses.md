@@ -10,9 +10,11 @@ Replicates cluster primarily by condition, indicating a real biological signal, 
 </table>
   <tr>
     <td style="text-align: center; vertical-align: top;">
+      <strong>CDS types</strong><br>
       <img src="../Plots/Volcano_RNA.png" width="350">
     </td>
     <td style="text-align: center; vertical-align: top;">
+      <strong>CDS types</strong><br>
       <img src="../Plots/PCA_RNA.png" width="350">
     </td>
   </tr>
