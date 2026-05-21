@@ -3,6 +3,19 @@
 The aim of the functional annotation is to assign biological meaning to the predicted genes in the assembled contigs and to assess how well the genome content is represented. In practice, this involves identifying gene types, evaluating functional assignments, and determining whether key biological features are captured.
 
 ## Results
+<table>
+  <tr>
+    <td style="text-align: center; vertical-align: top;">
+      <strong>Quast Illumina</strong><br>
+      <img src="../Plots/Annotation_categories.png" width="350">
+    </td>
+    <td style="text-align: center; vertical-align: top;">
+      <strong>Quast NanoPore</strong><br>
+      <img src="../Plots/Annotation_categories_CDS.png" width="350">
+    </td>
+  </tr>
+</table>
+
 The Prokka annotation identifies a wide range of features, including protein-coding genes, tRNAs, rRNAs, and functionally annotated proteins. The dataset contains enzymes, transporters, regulators, ribosomal proteins, and proteins associated with mobile genetic elements. Many genes have specific functional names supported by database matches, while others remain annotated as hypothetical proteins or general protein families.
 
 The presence of conserved housekeeping genes indicates that the annotation captures the core biological functions of the genome. At the same time, a substantial number of hypothetical proteins and transposase-related genes are observed, which is common in bacterial genomes, especially in regions influenced by recombination or horizontal gene transfer.
