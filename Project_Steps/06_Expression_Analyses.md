@@ -25,7 +25,7 @@ To improve statistical power, one would increase biological replication and sequ
 ## Additional Analyses
 The Tn‑seq dataset provides a fitness‑based view of gene function during growth in human serum. In contrast to RNA‑seq, which measures transcriptional output, Tn‑seq quantifies how well transposon mutants survive under different conditions. The authors generated these data by sequencing the junctions between the mariner transposon and the E. faecium E745 genome. Raw Illumina reads were demultiplexed, the 16‑nt genomic fragments adjacent to the transposon were mapped to the E745 genome using Bowtie2, and mapped reads were summarized in 25‑nt genomic windows. Windows overlapping each gene were aggregated, insertions in the final 10% of each gene were excluded, and counts were normalized to RPKM, producing a quantitative measure of insertion density. This means the Tn‑seq dataset represents fitness data, not expression levels.
 
-The goal of the Tn‑seq analysis is to identify genes whose disruption reduces survival in human serum. Genes that show depletion of insertions in serum relative to BH medium—reflected as lower RPKM values and negative log2 fold changes—are considered conditionally essential. These genes likely encode functions required to withstand nutrient limitation and stress in the bloodstream environment.
+The goal of the Tn‑seq analysis is to identify genes whose disruption reduces survival in human serum. Genes that show depletion of insertions in serum relative to BH medium—reflected as lower RPKM values and negative log2 fold changes, are considered conditionally essential. These genes likely encode functions required to withstand nutrient limitation and stress in the bloodstream environment.
 
 <table>
   <tr>
