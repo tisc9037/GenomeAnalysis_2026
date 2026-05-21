@@ -18,11 +18,9 @@ Replicates cluster primarily by condition, indicating a real biological signal, 
   </tr>
 </table>
 
-Differential expression results were ranked by adjusted p‑value first and then by absolute log2 fold change. Prioritizing adjusted p‑value controls the false discovery rate, while ranking by |log2FC| highlights genes with larger, biologically meaningful changes. For the sparse Tn‑seq dataset, many padj values are NA, so ranking relied on p‑value and negative log2 fold change (depletion in serum) to identify candidate essential genes.
+Differential expression results were ranked by adjusted p‑value first and then by absolute log2 fold change. Prioritizing adjusted p‑value controls the false discovery rate, while ranking by log2Fold highlights genes with larger, biologically meaningful changes. For the sparse Tn‑seq dataset, many padj values are NA, so ranking relied on p‑value and negative log2 fold change (depletion in serum) to identify candidate essential genes. Normalization is required for RNA‑seq. DESeq2’s median‑of‑ratios size‑factor method was used and seemed to be appropriate. 
 
-Normalization is required for RNA‑seq. DESeq2’s median‑of‑ratios size‑factor method was used and is appropriate here—no additional scaling is needed. For Tn‑seq, however, RNA‑seq‑style normalization is not ideal because insertion counts violate assumptions of gene‑length independence and uniform coverage. Tn‑seq is better normalized by insertion density, library saturation, or windowed read depth (as in the 25‑nt windowed RPKM approach used in the published study).
-
-To improve statistical power, one would increase biological replication and sequencing depth, remove very low‑count genes before testing (for example, baseMean < 5), improve RNA quality to reduce technical noise, and use paired designs if appropriate. For Tn‑seq specifically, methods designed for insertion data (windowed approaches or Tn‑seq‑specific tools) should be used rather than treating sparse insertion counts like RNA‑seq data.
+To improve statistical power, one would increase biological replication and sequencing depth, remove very low‑count genes before testing, improve RNA quality to reduce technical noise. 
 
 
 ## Additional Analyses
