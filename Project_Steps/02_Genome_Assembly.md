@@ -48,13 +48,6 @@ Read correction helps balance these trade-offs by reducing noise, improving base
 </table>
 
 ## Additional Analysis
-### 1. Genome assembly with Nanopore and Illumina reads
-Comparing the different assemblies reveals clear differences in performance. The PacBio_Canu assembly provides the most continuous reconstruction, with a chromosome-sized contig of approximately 2.58 Mb and high completeness, making it well suited for downstream analyses.
-
-The hybrid Illumina+NanoPore assembly achieves similar completeness (about 84.9%) but is more fragmented, with a largest contig of around 138 kb and the same number of misassemblies. The Illumina-only assembly is even more fragmented, although it likely has higher base-level accuracy due to the low error rate of short reads.
-
-In contrast, the NanoPore-only assembly performs poorly, recovering only a small fraction of the genome (6.8%) and producing very short contigs, which limits its usefulness as a primary assembly.
-
 <table>
   <tr>
     <td style="text-align: center; vertical-align: top;">
@@ -77,3 +70,16 @@ In contrast, the NanoPore-only assembly performs poorly, recovering only a small
     </td>
   </tr>
 </table>
+#### 1 Which assembly is more suitable for downstream analyses? Why?
+Among the four assemblies, the PacBio assembly is the most suitable for downstream analyses. It provides the highest completeness, the longest contigs, and the lowest error rates, making it the most reliable reconstruction of the genome. The Hybrid (Illumina NanoPore Hybrid) assembly, although more fragmented, still recovers a large proportion of the genome with relatively few structural errors and can therefore serve as a useful secondary dataset. In contrast, the Illumina assembly is highly accurate at the base level but remains fragmented, and the NanoPore assembly is too incomplete and error‑prone to be useful for most downstream applications.
+
+#### 2 What is the size of the largest contig of each assembly?
+The PacBio assembly contains the largest contig, approximately 2.76 Mb, which is close to chromosome scale. The Hybrid assembly is much more fragmented, with its largest contig around 105 kb. The Illumina assembly produces contigs of moderate length but does not approach the continuity of PacBio. The NanoPore assembly is the most fragmented, with its longest contig only about 23 kb.
+
+#### 3 Which assembly do you think is more accurate?
+The PacBio assembly contains the largest contig, approximately 2.76 Mb, which is close to chromosome scale. The Hybrid assembly is much more fragmented, with its largest contig around 105 kb. The Illumina assembly produces contigs of moderate length but does not approach the continuity of PacBio. The NanoPore assembly is the most fragmented, with its longest contig only about 23 kb.
+
+#### 4 Compare total assembly length to known/expected genome size. 
+The expected genome size is approximately 2.92 Mb. The PacBio assembly is slightly larger than this value, which is common for long‑read assemblies due to small duplications or unresolved repeats. The Hybrid assembly is close to the expected size but fragmented. The Illumina assembly typically approximates the expected size but remains split across many contigs. The NanoPore assembly is far below the expected genome size and represents an incomplete reconstruction.
+
+
