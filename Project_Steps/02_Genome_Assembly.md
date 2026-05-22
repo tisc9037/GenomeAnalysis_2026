@@ -48,6 +48,7 @@ Read correction helps balance these trade-offs by reducing noise, improving base
 </table>
 
 ## Additional Analysis
+### 1. Genome assembly with Nanopore and Illumina reads
 Comparing the different assemblies reveals clear differences in performance. The PacBio_Canu assembly provides the most continuous reconstruction, with a chromosome-sized contig of approximately 2.58 Mb and high completeness, making it well suited for downstream analyses.
 
 The hybrid Illumina+NanoPore assembly achieves similar completeness (about 84.9%) but is more fragmented, with a largest contig of around 138 kb and the same number of misassemblies. The Illumina-only assembly is even more fragmented, although it likely has higher base-level accuracy due to the low error rate of short reads.
