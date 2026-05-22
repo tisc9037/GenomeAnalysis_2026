@@ -70,6 +70,7 @@ Read correction helps balance these trade-offs by reducing noise, improving base
     </td>
   </tr>
 </table>
+
 #### 1 Which assembly is more suitable for downstream analyses? Why?
 Among the four assemblies, the PacBio assembly is the most suitable for downstream analyses. It provides the highest completeness, the longest contigs, and the lowest error rates, making it the most reliable reconstruction of the genome. The Hybrid (Illumina NanoPore Hybrid) assembly, although more fragmented, still recovers a large proportion of the genome with relatively few structural errors and can therefore serve as a useful secondary dataset. In contrast, the Illumina assembly is highly accurate at the base level but remains fragmented, and the NanoPore assembly is too incomplete and error‑prone to be useful for most downstream applications.
 
