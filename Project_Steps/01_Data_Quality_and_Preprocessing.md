@@ -1,19 +1,3 @@
-# Data Quality
-## Goal
-Raw sequencing reads should always be assessed for quality before downstream analysis. If necessary, low-quality regions and adapter sequences should be trimmed or removed. A second quality control step should then be performed to confirm that all issues have been resolved before proceeding.
-
-## Results
-<table>
-  <tr>
-    <th>Illumina FastQC</th>
-    <th>PacBio FastQC</th>
-  </tr>
-  <tr>
-    <td><img src="../Plots/FastQC_Illumina.png" width="350"></td>
-    <td><img src="../Plots/FastQC_PacBio.png" width="350"></td>
-  </tr>
-</table>
-
 ### Read Quality Control
 # Data Quality
 ## Goal
