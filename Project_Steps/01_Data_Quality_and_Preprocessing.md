@@ -1,4 +1,3 @@
-### Read Quality Control
 # Data Quality
 ## Goal
 Raw sequencing reads should always be assessed for quality before downstream analysis. If necessary, low-quality regions and adapter sequences should be trimmed or removed. A second quality control step should then be performed to confirm that all issues have been resolved before proceeding.
