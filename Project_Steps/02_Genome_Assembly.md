@@ -22,7 +22,7 @@ K-mers are short sequence fragments used to construct assembly graphs, estimate 
 #### 12 Some assemblers can include a read-correction step before doing the assembly. What is this step doing? 
 Read correction helps balance these trade-offs by reducing noise, improving base accuracy, and simplifying the assembly graph, which in turn improves both contiguity and reliability.
 
-### 13 How does your assembly compare with the reference assembly? What could have caused the differences? and 14 Do you think your assembly is better/worse than the public one? 
+#### 13 How does your assembly compare with the reference assembly? What could have caused the differences? and 14 Do you think your assembly is better/worse than the public one? 
 <table>
   <tr>
     <td style="vertical-align: top;">
