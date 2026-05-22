@@ -15,12 +15,16 @@ The aim of the functional annotation is to assign biological meaning to the pred
     </td>
   </tr>
 </table>
+#### 15 What types of features are detected by the software? Would you trust the prediction of some features over others and why? 
 The Prokka annotation identifies a broad range of genomic features, including protein‑coding genes, tRNAs, rRNAs, metabolic enzymes, transporters, regulators, and mobile‑element–associated proteins. The feature category plot shows this diversity. Most features fall into other CDSs, followed by hypothetical proteins, metabolism‑related genes, and transporters. Smaller categories such as regulators, tRNAs, and mobile elements are also present.
 
+#### 16 How can you evaluate the quality of the obtained functional annotation? 
 The quality of the annotation can be evaluated by examining homology support, the presence of conserved housekeeping genes, and the overall distribution of functional categories. The second plot, comparing hypothetical versus annotated CDSs, shows that while most CDSs receive functional annotations, a substantial number remain hypothetical. This balance is typical for bacterial genomes and reflects both biological variability and database limitations.
 
+#### 17 How many features of each kind are detected in your contigs? Do you detect the same number of features as the authors? How do they differ?
 Looking at the annotated catergories plot on the plots, the dataset contains roughly 950 other CDSs, ~750 hypothetical proteins, and moderate numbers of metabolic, transport, regulatory, and mobile‑element genes. These counts may differ from those reported by the authors due to differences in assembly fragmentation, database versions, or annotation parameters. 
 
+#### 18 How many genes are annotated as ‘hypothetical protein’? Why is that so? How would you tackle that problem? 
 The ~750 genes annotated as “hypothetical protein” arise because many bacterial genes lack characterized homologs, evolve rapidly, or appear as partial ORFs at contig edges. This can be addressed by applying domain prediction, structural modeling, comparative genomics to identify synteny patterns, or integrating RNA‑seq evidence to refine functional assignments.
 
 ### Additional Analysis
