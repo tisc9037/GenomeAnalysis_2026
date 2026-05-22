@@ -17,7 +17,6 @@ The aim of the functional annotation is to assign biological meaning to the pred
 </table>
 The Prokka annotation identifies a broad range of genomic features, including protein‑coding genes, tRNAs, rRNAs, metabolic enzymes, transporters, regulators, and mobile‑element–associated proteins. The feature category plot shows this diversity. Most features fall into other CDSs, followed by hypothetical proteins, metabolism‑related genes, and transporters. Smaller categories such as regulators, tRNAs, and mobile elements are also present.
 
-
 The quality of the annotation can be evaluated by examining homology support, the presence of conserved housekeeping genes, and the overall distribution of functional categories. The second plot, comparing hypothetical versus annotated CDSs, shows that while most CDSs receive functional annotations, a substantial number remain hypothetical. This balance is typical for bacterial genomes and reflects both biological variability and database limitations.
 
 Looking at the annotated catergories plot on the plots, the dataset contains roughly 950 other CDSs, ~750 hypothetical proteins, and moderate numbers of metabolic, transport, regulatory, and mobile‑element genes. These counts may differ from those reported by the authors due to differences in assembly fragmentation, database versions, or annotation parameters. 
