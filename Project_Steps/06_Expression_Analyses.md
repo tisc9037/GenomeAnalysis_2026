@@ -3,9 +3,11 @@
 The aim of the expression analysis is to identify genes that are differentially expressed between conditions, evaluate how samples cluster, and compare the resulting transcriptional patterns with those reported in Zhang et al., 2017. A secondary goal is to understand how RNA‑seq expression changes relate to Tn‑seq fitness determinants, with the broader objective of identifying genes that contribute to *E. faecium* growth in human serum.
 
 ## Results
-The RNA‑seq dataset shows **modest transcriptional changes** between conditions. Compared with the published study, several technical and biological factors reduce sensitivity: many genes have very low or zero counts in the DESeq2 tables, which prevents stable dispersion and fold‑change estimation; sequencing depth and replicate numbers are lower than in the original work; and preprocessing choices (trimming, mapping, counting, filtering) differ. Together, these factors explain why relatively few genes survive multiple‑testing correction and why the overall transcriptional response appears weaker than the ~28% differential expression reported by Zhang et al.
+#### 23 If your expression results differ from those in the published article, why could it be? 
+The RNA‑seq dataset shows slight transcriptional changes between conditions. Compared with the published study, several technical and biological factors reduce sensitivity: many genes have very low or zero counts in the DESeq2 tables, which prevents stable dispersion and fold‑change estimation; sequencing depth and replicate numbers are lower than in the original work; and preprocessing choices (trimming, mapping, counting, filtering) differ. Together, these factors explain why relatively few genes survive multiple‑testing correction and why the overall transcriptional response appears weaker than the ~28% differential expression reported by Zhang et al.
 
-Replicates cluster primarily by condition, indicating a real biological signal, but the separation is not strong. Log2 fold‑changes are generally small and most genes lie near zero, so although replicates are internally consistent, low counts and limited dynamic range restrict the ability to call robust DE genes. A PCA would likely show a modest separation between BH and serum, with serum and heat‑inactivated serum clustering more closely together.
+#### 24 How do the different samples and replicates cluster together? 
+Replicates cluster primarily by condition, indicating a real biological signal. It is worth nothing that this seperation seems quite week. Log2 fold‑changes are generally small and most genes lie near zero, so although replicates are internally consistent, low counts and limited dynamic range restrict the ability to call robust DE genes. A PCA would likely show a modest separation between BH and serum, with serum and heat‑inactivated serum clustering more closely together.
 
 <table>
   <tr>
@@ -18,8 +20,13 @@ Replicates cluster primarily by condition, indicating a real biological signal, 
   </tr>
 </table>
 
-Differential expression results were ranked by adjusted p‑value first and then by absolute log2 fold change. Prioritizing adjusted p‑value controls the false discovery rate, while ranking by log2Fold highlights genes with larger, biologically meaningful changes. For the sparse Tn‑seq dataset, many padj values are NA, so ranking relied on p‑value and negative log2 fold change (depletion in serum) to identify candidate essential genes. Normalization is required for RNA‑seq. DESeq2’s median‑of‑ratios size‑factor method was used and seemed to be appropriate. 
+#### 25 How did you sort your differential expression results? Why?
+Differential expression results were ranked by adjusted p‑value first and then by absolute log2 fold change. Prioritizing adjusted p‑value controls the false discovery rate, while ranking by log2Fold highlights genes with larger, biologically meaningful changes. 
 
+#### 26 Do you need a normalization step? What would you normalize against? Does DESeq do it?
+Normalization is required for RNA‑seq. DESeq2’s median‑of‑ratios size‑factor method was used and seemed to be appropriate. 
+
+#### 27 What would you do to increase the statistical power of your expression analysis?
 To improve statistical power, one would increase biological replication and sequencing depth, remove very low‑count genes before testing, improve RNA quality to reduce technical noise. 
 
 ## Additional Analyses
