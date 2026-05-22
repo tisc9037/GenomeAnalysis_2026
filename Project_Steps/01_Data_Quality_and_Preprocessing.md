@@ -26,7 +26,6 @@ In other words, the Illumina data appears clean and reliable, while the PacBio d
 The observed FastQC “fails” can largely be explained by the fact that FastQC is not designed for PacBio CLR data. These reads have different characteristics compared to short-read data, which leads to misleading warnings. However, these flags do not necessarily indicate issues that will negatively impact downstream analyses.
 
 ### Read Preprocessing
-#### 3,5,6 Trimming? 
 Trimming was not performed for the allignment data. The Illumina data was already of sufficient quality, and Trimmomatic is not suitable for PacBio data. Additionally, Canu includes its own read correction and preprocessing steps for long-read data.
 
 #### 4 How can this affect your future analyses and results? 
