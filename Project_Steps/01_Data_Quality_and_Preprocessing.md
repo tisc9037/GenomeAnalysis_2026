@@ -28,6 +28,7 @@ The observed FastQC “fails” can largely be explained by the fact that FastQC
 ### Read Preprocessing
 #### 3,5,6 Trimming? 
 Trimming was not performed. The Illumina data was already of sufficient quality, and Trimmomatic is not suitable for PacBio data. Additionally, Canu includes its own read correction and preprocessing steps for long-read data.
+Some trimming of the RNA-seq data was perfermored and will be talked about in 05_Read_counting.md.
 
 #### 4 How can this affect your future analyses and results? 
 Skipping trimming is unlikely to negatively affect downstream analyses, given the high quality of the Illumina reads and the internal correction performed by Canu.
