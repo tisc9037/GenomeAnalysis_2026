@@ -9,6 +9,7 @@ The goal of this analysis is to examine the distribution of read counts per gene
   </tr>
 </table>
 
+#### 22 Do you see big differences between replicates
 The count distributions for both BH and Serum are strongly right-skewed, with many genes having low counts and a smaller set of genes showing much higher expression . In both samples, the majority of genes appear to have non-zero counts, so most genes are expressed to some extent, although many are only weakly expressed .
 
 A practical threshold for considering a gene expressed is usually at least a small number of mapped reads, often around 10 counts or more, depending on the downstream analysis. In these histograms, genes below that level make up the low-expression tail, while genes above it are more likely to represent robust expression .
