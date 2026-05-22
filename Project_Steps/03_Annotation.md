@@ -15,6 +15,7 @@ The aim of the functional annotation is to assign biological meaning to the pred
     </td>
   </tr>
 </table>
+
 #### 15 What types of features are detected by the software? Would you trust the prediction of some features over others and why? 
 The Prokka annotation identifies a broad range of genomic features, including protein‑coding genes, tRNAs, rRNAs, metabolic enzymes, transporters, regulators, and mobile‑element–associated proteins. The feature category plot shows this diversity. Most features fall into other CDSs, followed by hypothetical proteins, metabolism‑related genes, and transporters. Smaller categories such as regulators, tRNAs, and mobile elements are also present.
 
