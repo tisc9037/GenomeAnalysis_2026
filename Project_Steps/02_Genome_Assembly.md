@@ -19,7 +19,7 @@ The aim of genome assembly is to reconstruct an accurate and contiguous represen
     <td style="vertical-align: top; padding-left: 20px; max-width: 350px;">
       The PacBio assembly generated with Canu shows high contiguity and good overall completeness. 
       The QUAST results indicate a genome fraction of approximately 85%, meaning that most of the reference genome is recovered. 
-      The assembly is dominated by a single contig of about 2.58 Mb, and the LG50 of 1 suggests that this contig represents a near chromosome-length reconstruction.
+      The assembly is dominated by a single contig of about 2.58 Mb, and the LG50 of 1 suggests that this contig represents       a near chromosome-length reconstruction.
       The duplication ratio is close to 1, indicating that repeats are not substantially overrepresented or collapsed. 
       However, 183 misassemblies are reported, reflecting structural inconsistencies relative to the reference. 
       These may arise from repeat regions, alignment artefacts, or real biological variation, 
@@ -34,18 +34,17 @@ Canu provides several intermediate outputs that help interpret the final assembl
 Together, these steps explain how the final contigs are formed and help identify whether issues such as fragmentation or misassemblies are driven by data quality, uneven coverage, or graph complexity.
 
 ### Expected Structure
-For bacterial genomes, one typically expects a single chromosome-length contig, possibly accompanied by plasmids. The PacBio assembly largely follows this expectation, as most of the genome appears to be contained within one dominant contig, with any remaining contigs likely being short.
-
-This contrasts with short-read assemblies, which are usually more fragmented due to unresolved repeats and limited read length.
+For bacterial genomes, we typically expect a single chromosome-length contig,. The PacBio assembly largely follows this expectation, as most of the genome appears to be contained within one dominant contig, with any remaining contigs likely being short. 
 
 ### Assembler Differences
-Different assemblers produce different results because they rely on distinct algorithms. Canu uses an overlap–layout–consensus approach with read correction, which often produces very long contigs. Flye, in contrast, uses a repeat-graph strategy and tends to be more conservative in ambiguous regions.
+Different assemblers produce different results because they rely on distinct algorithms. Canu uses an overlap–layout–consensus approach with read correction, which often produces very long contigs. Flye, on the other hand, uses a repeat-graph strategy and tends to be more conservative in ambiguous regions.
 
 These differences affect contiguity, repeat resolution, and the number of structural inconsistencies observed in the final assembly.
 
-### Role of k-mers and Error Correction
+### Role of k-mers
 K-mers are short sequence fragments used to construct assembly graphs, estimate coverage, and detect errors. Smaller k-mers improve connectivity but can collapse repeats, while larger k-mers increase specificity but require higher-quality data.
 
+### Read Correction
 Read correction helps balance these trade-offs by reducing noise, improving base accuracy, and simplifying the assembly graph, which in turn improves both contiguity and reliability.
 
 ## Additional Analysis
