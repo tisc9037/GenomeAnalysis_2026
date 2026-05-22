@@ -3,7 +3,26 @@
 The aim of genome assembly is to reconstruct an accurate and contiguous representation of the genome from sequencing reads and to evaluate how well this reconstruction reflects the true sequence. In practice, this involves assessing how much of the genome is recovered, how continuous the assembly is, and whether structural or base-level errors are present. For bacterial genomes, a strong assembly should approach a full chromosome and support downstream analyses such as annotation and comparative genomics.
 
 ## Results
-### Assembly Contiguity and Completeness
+### Assembly Process and Diagnostics
+Canu provides several intermediate outputs that help interpret the final assembly. The read correction step reduces sequencing errors and gives an indication of the initial data quality. Overlap detection reflects genome coverage and highlights regions of repeat complexity. Trimming and unitig construction remove low-quality sequences and simplify the assembly graph.
+
+Together, these steps explain how the final contigs are formed and help identify whether issues such as fragmentation or misassemblies are driven by data quality, uneven coverage, or graph complexity.
+
+### Expected Structure
+For bacterial genomes, we typically expect a single chromosome-length contig,. The PacBio assembly largely follows this expectation, as most of the genome appears to be contained within one dominant contig, with any remaining contigs likely being short. 
+
+### Assembler Differences
+Different assemblers produce different results because they rely on distinct algorithms. Canu uses an overlap–layout–consensus approach with read correction, which often produces very long contigs. Flye, on the other hand, uses a repeat-graph strategy and tends to be more conservative in ambiguous regions.
+
+These differences affect contiguity, repeat resolution, and the number of structural inconsistencies observed in the final assembly.
+
+### Role of k-mers
+K-mers are short sequence fragments used to construct assembly graphs, estimate coverage, and detect errors. Smaller k-mers improve connectivity but can collapse repeats, while larger k-mers increase specificity but require higher-quality data.
+
+### Read Correction
+Read correction helps balance these trade-offs by reducing noise, improving base accuracy, and simplifying the assembly graph, which in turn improves both contiguity and reliability.
+
+### Assembly Evaluation
 <table>
   <tr>
     <td style="vertical-align: top;">
@@ -27,25 +46,6 @@ The aim of genome assembly is to reconstruct an accurate and contiguous represen
     </td>
   </tr>
 </table>
-
-### Assembly Process and Diagnostics
-Canu provides several intermediate outputs that help interpret the final assembly. The read correction step reduces sequencing errors and gives an indication of the initial data quality. Overlap detection reflects genome coverage and highlights regions of repeat complexity. Trimming and unitig construction remove low-quality sequences and simplify the assembly graph.
-
-Together, these steps explain how the final contigs are formed and help identify whether issues such as fragmentation or misassemblies are driven by data quality, uneven coverage, or graph complexity.
-
-### Expected Structure
-For bacterial genomes, we typically expect a single chromosome-length contig,. The PacBio assembly largely follows this expectation, as most of the genome appears to be contained within one dominant contig, with any remaining contigs likely being short. 
-
-### Assembler Differences
-Different assemblers produce different results because they rely on distinct algorithms. Canu uses an overlap–layout–consensus approach with read correction, which often produces very long contigs. Flye, on the other hand, uses a repeat-graph strategy and tends to be more conservative in ambiguous regions.
-
-These differences affect contiguity, repeat resolution, and the number of structural inconsistencies observed in the final assembly.
-
-### Role of k-mers
-K-mers are short sequence fragments used to construct assembly graphs, estimate coverage, and detect errors. Smaller k-mers improve connectivity but can collapse repeats, while larger k-mers increase specificity but require higher-quality data.
-
-### Read Correction
-Read correction helps balance these trade-offs by reducing noise, improving base accuracy, and simplifying the assembly graph, which in turn improves both contiguity and reliability.
 
 ## Additional Analysis
 Comparing the different assemblies reveals clear differences in performance. The PacBio_Canu assembly provides the most continuous reconstruction, with a chromosome-sized contig of approximately 2.58 Mb and high completeness, making it well suited for downstream analyses.
