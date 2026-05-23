@@ -29,6 +29,29 @@ The goal of this analysis is to evaluate the mapping efficiency and distribution
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td style="vertical-align: top;">
+      <table>
+        <tr>
+          <th>Blast ring comparison plot</th>
+        </tr>
+        <tr>
+          <td><img src="../Plots/compairson.png" width="350"></td>
+        </tr>
+      </table>
+    </td>
+    <td style="vertical-align: top; padding-left: 20px; max-width: 350px;">
+      Here displayed is a Blast of the PacBio Canu assembly constructed during this 
+      assignment to the reference genome found on NCBI.
+      The PacBio CANU assembly and the reference genome are highly similar overall, 
+      but they contain multiple structural rearrangements, consisting of inversions, 
+      translocations, and possibly relocations. These rearrangements should not 
+      affect RNA‑seq or Tn‑seq downstream analysis, as both analyses rely on local 
+      read mapping rather than global genome structure.
+    </td>
+  </tr>
+</table>
 
 ### Mapping
 #### 19 What percentage of your reads map back to your contigs? Why do you think that is? 
